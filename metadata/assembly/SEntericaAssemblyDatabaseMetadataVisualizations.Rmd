@@ -1,0 +1,318 @@
+---
+title: "S. enterica Assembly Database Metadata Visualizations"
+author: "John Christian Gaby"
+date: "April 14, 2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Load Libraries
+
+```{r}
+
+library(ggplot2)
+library(dplyr)
+library(lubridate)
+
+```
+
+## Download Metadata
+
+Metadata for all *Salmonella enterica* assemblies is downloaded using NCBI E-utilities and saved as a tab-separated values file. This takes about 15 minutes to save all the metadata into an ~200 megabyte file.
+
+```{bash DataDownload, eval = FALSE}
+
+esearch -db assembly -query "Salmonella enterica[ORGN]" | efetch -format docsum | xtract -pattern DocumentSummary -def "-" -element BioSampleAccn Id RsUid GbUid AssemblyAccession LastMajorReleaseAccession EnsemblName Taxid Organism SpeciesTaxid SpeciesName AssemblyStatus Coverage PartialGenomeRepresentation Primary AssemblyDescription ReleaseLevel ReleaseType AsmReleaseDate_GenBank AsmReleaseDate_RefSeq SeqReleaseDate AsmUpdateDate SubmissionDate LastUpdateDate SubmitterOrganization RefSeq_category AnomalousList ExclFromRefSeq FromType ContigN50 ScaffoldN50 assembly-level assembly-status representative-status submitter-organization taxonomy-check-status -block GB_BioProjects -def "-" -element BioprojectAccn -block RS_BioProjects -def "-" -element BioprojectAccn -block Biosource -def "-" -sep "|" -element Sub_type,Sub_value,Sex,Isolate -block PropertyList -sep "|" -element string -block Synonym -def "-" -element Genbank -block Synonym -def "-" -element RefSeq -block Synonym -def "-" -element Similarity -block Stat -if "@category" -equals alt_loci_count -element Stat -block Stat -if "@category" -equals chromosome_count -element Stat -block Stat -if "@category" -equals contig_count -element Stat -block Stat -if "@category" -equals contig_l50 -element Stat -block Stat -if "@category" -equals contig_n50 -element Stat -block Stat -if "@category" -equals non_chromosome_replicon_count -element Stat -block Stat -if "@category" -equals replicon_count -element Stat -block Stat -if "@category" -equals scaffold_l50 -element Stat -block Stat -if "@category" -equals scaffold_n50 -element Stat -block Stat -if "@category" -equals ungapped_length -element Stat -block Stat -if "@category" -equals total_length -element Stat -block Stat -def "-" -element > SentericaAssemblyMetadata2021-04-21.tsv
+
+```
+
+## Check for Consistent Number of Columns
+
+The output should have a consistent number of columns.
+
+```{bash ConsistencyCheck}
+
+awk '{print gsub(/\t/,"")}' /home/chrisgaby/SentericaAssemblyMetadata2021-04-21.tsv | sort | uniq
+
+```
+
+This should print a single number that corresponds to the number of columns in each line of the tsv file. If there is more than one number, then there is a row or rows with an inconsistent number of columns present.
+
+## Import Data
+
+The data is imported from a tab-separated values file and saved as a data object.
+
+For an unknown reason, the function 'read.table()' gives the following error:
+
+> Error in scan(file = file, what = what, sep = sep, quote = quote, dec = dec, : line 19548 did not have 51 elements
+
+whereas the 'read.csv()' function succeeds in importing the ~200 megabyte file of assembly metadata.
+
+```{r ReadData}
+
+# This gives an error
+#SAEN.assembly.meta <- read.table("/home/chrisgaby/SentericaAssemblyMetadata.tsv", sep="\t", header=FALSE)
+
+# This works
+SAEN.assembly.meta <- read.csv("/home/chrisgaby/SentericaAssemblyMetadata2021-04-21.tsv", sep="\t", header=FALSE)
+
+```
+
+## Add Column Headers
+
+The original data file that was imported does not have column headers, so these will be added manually.
+
+```{r}
+
+colnames(SAEN.assembly.meta) <- c("BioSampleAccn", "Id", "RsUid", "GbUid", "AssemblyAccession", "LastMajorReleaseAccession", "EnsemblName", "Taxid", "Organism", "SpeciesTaxid", "SpeciesName", "AssemblyStatus", "Coverage", "PartialGenomeRepresentation", "Primary", "AssemblyDescription", "ReleaseLevel", "ReleaseType", "AsmReleaseDate_GenBank", "AsmReleaseDate_RefSeq", "SeqReleaseDate", "AsmUpdateDate", "SubmissionDate", "LastUpdateDate", "SubmitterOrganization", "RefSeq_category", "AnomalousList", "ExclFromRefSeq", "FromType", "ContigN50", "ScaffoldN50", "assembly-level", "assembly-status", "representative-status", "submitter-organization", "taxonomy-check-status", "GBBioProjectsAccn", "RSBioProjectsAccn", "BiosourceStrainSexIsolate", "Properties", "GenbankSynonym", "RefSeqSynonym", "Similarity", "alt_loci_count", "chromosome_count", "contig_count", "contig_l50", "contig_n50", "non_chromosome_replicon_count", "replicon_count", "scaffold_l50", "scaffold_n50", "ungapped_length", "total_length")
+
+```
+
+## Genome Length Histogram
+
+```{r}
+
+p <- ggplot(SAEN.assembly.meta, aes(x=total_length)) + 
+  geom_histogram(aes(y=..density..), binwidth = 100000, color="black", fill="grey") +
+  geom_density(alpha=0.6, adjust = 2) +
+  xlim(4000000,6000000) +
+  geom_vline(data=SAEN.assembly.meta, aes(xintercept=mean(total_length), color="red"), linetype="dashed") +
+  theme_classic() +
+  theme(legend.position = "none")
+
+p
+```
+
+## Genome Coverage
+
+```{r}
+
+SAEN.assembly.meta$Coverage <- as.numeric(SAEN.assembly.meta$Coverage)
+
+coverage.plot <- ggplot(SAEN.assembly.meta, aes(x=Coverage)) + 
+  geom_histogram(aes(y=..density..), binwidth = 100, color="black", fill="grey") +
+  geom_density(alpha=0.6, adjust = 2) +
+  geom_vline(data=SAEN.assembly.meta, aes(xintercept=mean(Coverage), color="red"), linetype="dashed") +
+  theme_classic() +
+  theme(legend.position = "none")
+
+coverage.plot
+
+```
+
+```{r}
+
+SAEN.assembly.meta$replicon_count <- as.numeric(SAEN.assembly.meta$replicon_count)
+
+replicon.plot <- ggplot(SAEN.assembly.meta, aes(x=replicon_count)) + 
+  #geom_bar(data=SAEN.assembly.meta, aes(replicon_count), color="black", fill="grey") +
+  geom_histogram(aes(x=replicon_count), binwidth = 1, color="black", fill="grey") +
+  xlim(0,10) +
+  ylim(0,1000) +
+  theme_classic() +
+  theme(legend.position = "none")
+
+replicon.plot
+```
+
+## How many assemblies are partial genome representations?
+
+It appears that there are `r sum(SAEN.assembly.meta$PartialGenomeRepresentation == "true")` assemblies with partial genome representation.
+
+```{r PartialGenomes, eval=FALSE}
+
+unique(SAEN.assembly.meta$PartialGenomeRepresentation)
+
+sum(SAEN.assembly.meta$PartialGenomeRepresentation == "true")
+
+which(SAEN.assembly.meta$PartialGenomeRepresentation == "true")
+
+SAEN.assembly.meta$AssemblyAccession[which(SAEN.assembly.meta$PartialGenomeRepresentation == "true")]
+
+```
+
+## Assembly Status
+
+There are `r length(unique(SAEN.assembly.meta$AssemblyStatus))` assembly categories.
+
+```{r AssemblyStatus}
+
+SAEN.assembly.meta$Coverage <- as.factor(SAEN.assembly.meta$AssemblyStatus)
+
+unique(SAEN.assembly.meta$AssemblyStatus)
+
+length(unique(SAEN.assembly.meta$AssemblyStatus))
+
+```
+
+```{r AssemblyStatusPlot}
+
+assemblystatus.plot <- ggplot(SAEN.assembly.meta, aes(x=AssemblyStatus)) + 
+  geom_bar(aes(x=AssemblyStatus), color="black", fill="grey") +
+  geom_text(stat='count', aes(label=..count..), position=position_dodge(width=0.9), vjust=-0.25) +
+  theme_classic() +
+  theme(legend.position = "none")
+
+assemblystatus.plot
+
+```
+
+## Organism Names
+
+There are `r length(unique(SAEN.assembly.meta$Organism))` unique organism names out of `r length(SAEN.assembly.meta$Organism)` assemblies.
+
+
+```{r OrganismNames, eval = FALSE}
+
+unique(SAEN.assembly.meta$Organism)
+
+length(SAEN.assembly.meta$Organism)
+
+length(unique(SAEN.assembly.meta$Organism))
+
+sub(" str.*", "", SAEN.assembly.meta$Organism) # Before
+
+sub(".*serovar ", "", SAEN.assembly.meta$Organism) # After
+
+gsub(".*subsp\\. (.+) serovar.*", "\\1", SAEN.assembly.meta$Organism)
+
+```
+
+## Taxonomy Identifiers
+
+```{r, eval = FALSE}
+
+unique(SAEN.assembly.meta$Taxid)
+
+length(unique(SAEN.assembly.meta$Taxid))
+
+```
+
+It appears that the number of unique organism names corresponds to the number of unique Taxids.
+
+## Species Names
+
+```{r}
+
+length(unique(SAEN.assembly.meta$SpeciesName))
+
+length(unique(SAEN.assembly.meta$SpeciesTaxid))
+
+```
+
+There is only `r length(unique(SAEN.assembly.meta$SpeciesName))` species name and a corresponding `r length(unique(SAEN.assembly.meta$SpeciesTaxid))` species taxid.
+
+## Chromosome Count
+
+Oddly, there are assemblies with `r unique(SAEN.assembly.meta$chromosome_count)[3]` and `r unique(SAEN.assembly.meta$chromosome_count)[4]` in the chromosome count field, which are perhaps meant to refer to the number of contigs.
+
+There are just `r length(which(SAEN.assembly.meta$chromosome_count == 1))` assemblies with chromosome count equal to 1, whereas there are `r length(which(SAEN.assembly.meta$chromosome_count == 0))` with chromosome count equal to 0. Thus, the majority of assembly records have not labeled the expected number of chromosomes, perhaps because they are fragmented assemblies corresponding to multiple contigs.
+
+```{r}
+
+unique(SAEN.assembly.meta$chromosome_count)
+
+length(which(SAEN.assembly.meta$chromosome_count == 1))
+
+length(which(SAEN.assembly.meta$chromosome_count == 0))
+
+which(SAEN.assembly.meta$chromosome_count == unique(SAEN.assembly.meta$chromosome_count)[3])
+
+```
+
+## Genbank Bioproject Accessions
+
+There are `r length(unique(SAEN.assembly.meta$GBBioProjectsAccn))` Bioprojects associated with the *S. enterica* assemblies.
+
+```{r BioProjectAccn, eval = FALSE}
+
+unique(SAEN.assembly.meta$GBBioProjectsAccn)
+
+length(unique(SAEN.assembly.meta$GBBioProjectsAccn))
+
+```
+
+## Contig N50
+
+```{r}
+
+contigN50.plot <- ggplot(SAEN.assembly.meta, aes(x=ContigN50)) + 
+  #geom_bar(data=SAEN.assembly.meta, aes(replicon_count), color="black", fill="grey") +
+  geom_histogram(aes(x=ContigN50), color="black", fill="grey") +
+#  xlim(0,5000) +
+#  ylim(0,1000) +
+  theme_classic() +
+  theme(legend.position = "none")
+
+contigN50.plot
+
+```
+
+## Contig L50
+
+```{r}
+
+contigL50.plot <- ggplot(SAEN.assembly.meta, aes(x=contig_l50)) + 
+  #geom_bar(data=SAEN.assembly.meta, aes(replicon_count), color="black", fill="grey") +
+  geom_histogram(aes(x=contig_l50), color="black", fill="grey") +
+  xlim(0,100) +
+#  ylim(0,1000) +
+  theme_classic() +
+  theme(legend.position = "none")
+
+contigL50.plot
+
+```
+
+The media for the contig L50 is `r median(SAEN.assembly.meta$contig_l50)`.
+
+## Annual Sequence Releases
+
+```{r}
+
+SAEN.assembly.meta$SeqReleaseDate <- as.Date(SAEN.assembly.meta$SeqReleaseDate, format="%Y/%m/%d %H:%M")
+SAEN.assembly.meta$SeqReleaseYear <- year(SAEN.assembly.meta$SeqReleaseDate)
+
+release.timeline.plot <- ggplot(SAEN.assembly.meta, aes(x=SeqReleaseYear)) + 
+  #geom_bar(data=SAEN.assembly.meta, aes(SeqReleaseDate), color="black", fill="grey") +
+  geom_bar(aes(x=SeqReleaseYear), color="black", fill="grey") +
+  theme_classic() +
+  ylim(0,200000) +
+  scale_x_continuous(n.breaks = 21) +
+  theme(axis.text.x = element_text(angle=45, hjust = 1)) +
+  geom_text(stat='count', aes(label=..count..), angle = 90, hjust = -0.25) +
+  theme(legend.position = "none")
+
+release.timeline.plot
+
+```
+
+## Annual Sequence Submissions
+
+```{r}
+
+SAEN.assembly.meta$SubmissionDate <- as.Date(SAEN.assembly.meta$SubmissionDate, format="%Y/%m/%d %H:%M")
+SAEN.assembly.meta$SubmissionYear <- year(SAEN.assembly.meta$SubmissionDate)
+
+submission.timeline.plot <- ggplot(SAEN.assembly.meta, aes(x=SubmissionYear)) + 
+  #geom_bar(data=SAEN.assembly.meta, aes(SeqReleaseDate), color="black", fill="grey") +
+  geom_bar(aes(x=SubmissionYear), color="black", fill="grey") +
+  theme_classic() +
+  ylim(0,200000) +
+  scale_x_continuous(n.breaks = 21) +
+  theme(axis.text.x = element_text(angle=45, hjust = 1)) +
+  geom_text(stat='count', aes(label=..count..), angle = 90, hjust = -0.25) +
+  theme(legend.position = "none")
+
+submission.timeline.plot
+
+```
+
+The figures for 'SubmissionDate' and 'SeqReleaseDate' appear the same, and so the content is presumed to be highly similar or the same. In fact, comparison of the two fields shows they are equal:
+
+```{r}
+unique(SAEN.assembly.meta$SubmissionDate==SAEN.assembly.meta$SeqReleaseDate)
+```
