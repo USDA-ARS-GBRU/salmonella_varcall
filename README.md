@@ -12,5 +12,4 @@ This repository contains the following folders:
    1. `freebayes` SNP calling with the FreeBayes program.
    2. `mpileup` SNP calling with the samtools mpileup program.
    3. `refgenome` The reference genome of *Salmonella enterica* type strain LT2 used in the SNP calling.
-   4. `testreads` Genome sequence read datasets from the SRA for initial testing of SNP calling.
 5. `varcalling` The variant calling pipeline that uses a custom *Salmonella enterica* reference graph.
