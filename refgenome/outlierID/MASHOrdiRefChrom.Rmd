@@ -1,0 +1,142 @@
+---
+title: "Salmonella Project Reference Genome Ordination"
+author: "John Christian Gaby"
+date: "November 25, 2020"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(tidy=TRUE, tidy.opts=list(width.cutoff=73))
+```
+
+## MASH (Minimum HASH) of the ~600 *S. enterica* reference genomes
+
+I ceated MASH sketches of the nearly 600 complete, contiguous *S. enterica* chromosomes. The chromosomes will be used to construct a reference graph, and before making the reference graph we will determine whether there are anomalous chromosomes present that perhaps are mislabeled or contamiated. After creating the MASH sketches, I calculated all pairwise distances and made a distance matrix, which will be imported into R and used to make an ordination plot to look for divergent outliers.
+
+Before importing, I opened the tab-delimited file in Calc spreadsheet and removed the directory names from each chromosome accession using the find and replace tool in the spreadsheet. The modified file without the directories in the row and column names is "/home/chrisgaby/Documents/USDA/data/MASH/salmRefChromMASHDist2.tab".
+
+I begin by loading libraries.
+
+```{r}
+
+# Load the required libraries.
+library(vegan)
+library(ggplot2)
+library(psych)
+
+```
+
+Next, I import the file and view a portion of the distance matrix object.
+
+```{r}
+
+# Import the MASH symmetric square matrix that I made using a unix script from the calculated pairwise distances for all 592 chromosomes.
+dm <- read.table("/home/chrisgaby/Documents/USDA/data/MASH/salmRefChromMASHDist2.tab", header=T)
+
+# Preview the distance matrix.
+dm[1:5,1:5]
+
+```
+
+And the matrix is square and symmetric.
+
+Now lets see the number of rows and columns.
+
+```{r}
+nrow(dm)
+ncol(dm)
+```
+
+There are `r nrow(dm)` rows and `r ncol(dm)` columns. The rownames and column names are the same; for example, the first 5 row names are `r head(rownames(dm))` and the first 5 column names are `r head(colnames(dm))`. The names of the rows and columns correspond to the chromosome FASTA filenames, and hence the ".fa" extensions are extraneous as column and row identifiers. However, the basename, e.g. AP019692.1, corresponds to the Genbank accessions for the *S. enterica* chromosomes used for the MASH distance calculations.
+
+Next, I will create an ordination object and report the stress.
+
+```{r}
+
+# Make the ordination object.
+NMDS=metaMDS(dm, distance="jaccard", k=2)
+
+# Examine the stress
+NMDS$stress
+
+```
+
+The `metaMDS()` function takes a while to run. The stress on the ordintion is `r NMDS$stress`, and stress < 0.05 provides an excellent 2 dimensional respresentation of the distances.
+
+Now I will visualize the stress as a stressplot:
+
+```{r}
+
+stressplot(NMDS)
+
+```
+
+The R2 is 0.999, showing that there's excellent fit.
+
+The ordination object has a number of components, which are as follows:
+
+`r names(NMDS)`
+
+One of the components of the metaMDS object that I have named 'NMDS' is the points for the 2 dimensional ordination, which may be used to produce the ordination plot:
+
+```{r}
+# The points subcomponent of the object NMDS contains the ordination plot coordinates.
+head(NMDS$points)
+
+# The points for the NMDS plot are present in the NMDS object.
+plot(NMDS$points[,1], NMDS$points[,2])
+
+```
+
+I can see that there is a cluster of points around 0 in the ordination plot and several outlier points elsewhere in the plot space. Let's try a different visualization of the plot that includes histograms along the axes to determine where the bulk of the ~600 data points lie:
+
+
+```{r}
+# The function scatterhist is from the psych package.
+scatter.hist(NMDS$points[,1], NMDS$points[,2], smooth=F, ab=F, correl = F, x.breaks = 100, y.breaks = 100)
+```
+
+Here I can see that the vast majority of the data points are around 0, and hence the other datapoints outside this cluster for some reason deviate from the others. These should probably be further examined to ensure that they are not mislabeled as *S. enterica* or that something else anomalous hasn't occurred with them. For now, the outliers should probably be excluded from use as reference chromosomes for making the reference graph.
+
+The outliers can be seaparated and their IDs listed so that they may be examined later.
+
+```{r}
+
+# There appear to be 17 outlier chromosomes, whose Genbank accessions are obtained as follows
+rownames(subset(NMDS$points, NMDS$points[,1] > 0.005))
+
+```
+
+There are `r length(rownames(subset(NMDS$points, NMDS$points[,1] > 0.005)))` outlier chromosomes.
+
+I will now plot the NMDS without the outliers, but beware that this is done by excluding the outlier points from the NMDS ordination object points subcomponent rather that by excluding the outlier chromosomes from the calculated MASH distance matrix and re-running the NMDS ordination, which would be the preferred approach.
+
+```{r}
+
+# We can also plot the NMDS without the outliers, which effectively zooms in on the points cluster around 0 of closely-related genomes
+NMDS.plot.nooutlier <- subset(NMDS$points, NMDS$points[,1] < 0.005)
+plot(NMDS.plot.nooutlier)
+
+```
+
+And it looks like there are 2 main clusters, although at this point is is not known the reason for the separation. One may speculate that it could correspond to divergent serotypes, and coloring the datapoints based on metadata such as serotype name may elucidate this.
+
+The data may be plotted with histograms on the axes:
+
+```{r}
+
+scatter.hist(NMDS.plot.nooutlier[,1], NMDS.plot.nooutlier[,2], smooth=F, ab=F, correl = F, x.breaks = 40, y.breaks = 40)
+
+```
+
+whereby we can see the two clusters evident in the x-axis histogram.
+
+## Conclusion
+
+There are 17 outlier chromosomes that should be excluded from the reference graph.
+
+### An additional note on data input and output format
+
+MASH estimates the Jaccard index and has a distance function that computes the distance between two genomes or metagenomes. The Jaccard index, also known as the Jaccard similarity coefficient, is a measure of the similarity between "finite sample sets" and is defined as the intersection of two sample sets over the union of the sample sets. The Jaccard distance, on the other hand, measures dissimilarity of sample sets, and is equal to 1 minus the Jaccard similarity coefficient. The metaMDS function used to calculate the NMDS in the above code accepts a dissimilarity matrix as input. Thus, it seems that the MASH distance output is of the correct type for ordination with the metaMDS function.
