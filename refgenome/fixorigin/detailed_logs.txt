@@ -1,0 +1,1728 @@
+Using the following promer matches to circularize contigs:
+4045037	4043637	1	1401	1401	1401	99.79	4857450	1401	-2	AE006468.2	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4980580	1401	1	AP019692.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+101	1501	1	1401	1401	1401	99.79	4829518	1401	2	AP020330.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+101	1501	1	1401	1401	1401	99.57	4781872	1401	2	AP020332.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+2977069	2978469	1	1401	1401	1401	99.79	4634161	1401	1	CP004027.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+992907	991507	1	1401	1401	1401	99.79	4793479	1401	-2	CP004086.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4491682	4490282	1	1401	1401	1401	99.79	4783943	1401	-2	CP005390.2	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+2569992	2568592	1	1401	1401	1401	99.79	4783867	1401	-2	CP005995.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4382403	4383803	1	1401	1401	1401	99.79	4859931	1401	3	CP006048.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+51907	53307	1	1401	1401	1401	99.79	4730612	1401	1	CP006053.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+113639	112239	1	1401	1401	1401	99.79	4977480	1401	-2	CP006055.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+353589	354989	1	1401	1401	1401	99.79	4822189	1401	3	CP006602.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+38930	40330	1	1401	1401	1401	99.79	4695514	1401	2	CP007216.2	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3946140	3944740	1	1401	1401	1401	99.79	4712309	1401	-3	CP007249.2	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+646980	645580	1	1401	1401	1401	99.79	4864410	1401	-1	CP007505.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+350284	351684	1	1401	1401	1401	99.79	4679662	1401	1	CP007528.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3618969	3617569	1	1401	1401	1401	99.79	4694375	1401	-3	CP007530.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3149719	3151119	1	1401	1401	1401	99.79	4706101	1401	1	CP007531.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1110742	1109342	1	1401	1401	1401	99.79	4547600	1401	-2	CP007532.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3423027	3421627	1	1401	1401	1401	99.79	4603849	1401	-2	CP007533.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+844886	843486	1	1401	1401	1401	99.79	4679081	1401	-1	CP007598.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+2827973	2826573	1	1401	1401	1401	99.79	4602439	1401	-3	CP008925.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3980956	3979556	1	1401	1401	1401	99.79	4793299	1401	-1	CP009102.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1129820	1128420	1	1401	1401	1401	99.79	4755838	1401	-3	CP009561.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3529460	3530860	1	1401	1401	1401	99.79	4726694	1401	2	CP009565.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3566724	3565324	1	1401	1401	1401	99.79	4832938	1401	-2	CP010279.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3376377	3374977	1	1401	1401	1401	99.79	4864348	1401	-2	CP010280.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3958714	3960114	1	1401	1401	1401	99.79	4830769	1401	1	CP010281.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4637574	4638974	1	1401	1401	1401	99.79	4795842	1401	3	CP010282.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4523863	4525263	1	1401	1401	1401	99.79	4858179	1401	1	CP010283.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+820529	821929	1	1401	1401	1401	99.79	4827959	1401	2	CP010284.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4797172	1401	1	CP011259.2	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3943787	3942387	1	1401	1401	1401	99.79	4759372	1401	-3	CP011365.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4685993	1401	1	CP011394.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.57	4690430	1401	1	CP011396.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4073030	4071630	1	1401	1401	1401	99.79	4886081	1401	-1	CP011428.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+2859691	2858291	1	1401	1401	1401	99.79	4793553	1401	-3	CP012091.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+664103	662703	1	1401	1401	1401	99.79	4798993	1401	-3	CP012151.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4752095	1401	1	CP012344.2	sp|Q57I00|DNAA_SALCH
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4555576	1401	1	CP012346.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4694842	1401	1	CP012347.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4817791	1401	1	CP012349.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1435	2835	1	1401	1401	1401	99.79	3006	1401	1	CP012396.1__ends	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1860407	1861807	1	1401	1401	1401	99.79	4538916	1401	2	CP012597.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4231651	4230251	1	1401	1401	1401	99.79	4962150	1401	-3	CP012598.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1987684	1989084	1	1401	1401	1401	99.79	4512838	1401	1	CP012599.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3997329	3995929	1	1401	1401	1401	99.79	4809574	1401	-2	CP012681.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4651400	1401	1	CP012833.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3979810	3978410	1	1401	1401	1401	99.79	4751447	1401	-2	CP012921.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4018592	4017192	1	1401	1401	1401	99.79	4790331	1401	-2	CP012924.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4037983	4036583	1	1401	1401	1401	99.79	4809628	1401	-1	CP012930.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1612300	1613700	1	1401	1401	1401	99.79	4857490	1401	1	CP014051.2	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4074206	4072806	1	1401	1401	1401	99.79	4916170	1401	-3	CP014356.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4078850	4077450	1	1401	1401	1401	99.79	4933574	1401	-1	CP014358.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+39407	40807	1	1401	1401	1401	99.79	4676958	1401	2	CP014620.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+39407	40807	1	1401	1401	1401	99.79	4883499	1401	2	CP014621.2	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+39407	40807	1	1401	1401	1401	99.79	4704371	1401	2	CP014657.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+39407	40807	1	1401	1401	1401	99.79	4945392	1401	2	CP014659.2	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+39407	40807	1	1401	1401	1401	99.79	4700848	1401	2	CP014661.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+39407	40807	1	1401	1401	1401	99.79	4836393	1401	2	CP014663.2	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+39407	40807	1	1401	1401	1401	99.79	4783492	1401	2	CP014664.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+39407	40807	1	1401	1401	1401	99.79	4751034	1401	2	CP014665.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+39407	40807	1	1401	1401	1401	99.79	4635697	1401	2	CP014666.2	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+39142	40542	1	1401	1401	1401	99.79	4799398	1401	1	CP014965.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+72302	73702	1	1401	1401	1401	99.79	4906321	1401	2	CP014967.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+84937	86337	1	1401	1401	1401	99.79	4936894	1401	1	CP014969.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+39141	40541	1	1401	1401	1401	99.79	4784385	1401	3	CP014971.2	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+81574	82974	1	1401	1401	1401	99.79	4933707	1401	1	CP014975.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+39142	40542	1	1401	1401	1401	99.79	4856440	1401	1	CP014977.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+81574	82974	1	1401	1401	1401	99.79	4884395	1401	1	CP014979.2	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+39142	40542	1	1401	1401	1401	99.79	4815208	1401	1	CP014981.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+39142	40542	1	1401	1401	1401	99.79	4927145	1401	1	CP014982.2	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+39142	40542	1	1401	1401	1401	99.79	4823793	1401	1	CP014983.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4834050	1401	1	CP014994.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	5047093	1401	1	CP014996.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4798531	1401	1	CP015024.2	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+13	1413	1	1401	1401	1401	99.79	4938076	1401	1	CP015574.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1435	2835	1	1401	1401	1401	99.79	3006	1401	1	CP015598.1__ends	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+74	1474	1	1401	1401	1401	99.79	4791723	1401	2	CP015724.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4841916	1401	1	CP015923.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+81	1481	1	1401	1401	1401	99.79	4883715	1401	3	CP015924.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4833991	1401	1	CP016010.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4898059	1401	1	CP016012.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4746969	1401	1	CP016014.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4712541	1401	1	CP016357.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+257496	258896	1	1401	1401	1401	99.79	4727126	1401	3	CP016406.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4464346	4462946	1	1401	1401	1401	99.79	4728107	1401	-2	CP016408.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4504472	4503072	1	1401	1401	1401	99.79	4727114	1401	-1	CP016410.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+263698	265098	1	1401	1401	1401	99.79	4727085	1401	1	CP016412.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3979703	3978303	1	1401	1401	1401	99.79	4751442	1401	-2	CP016507.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3979811	3978411	1	1401	1401	1401	99.79	4751447	1401	-1	CP016514.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3979816	3978416	1	1401	1401	1401	99.79	4751335	1401	-1	CP016517.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3977368	3975968	1	1401	1401	1401	99.79	4750474	1401	-1	CP016521.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3979812	3978412	1	1401	1401	1401	99.79	4751449	1401	-2	CP016530.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3979590	3978190	1	1401	1401	1401	99.79	4751227	1401	-2	CP016563.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3979825	3978425	1	1401	1401	1401	99.79	4751462	1401	-2	CP016565.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3980078	3978678	1	1401	1401	1401	99.79	4751746	1401	-3	CP016569.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3979816	3978416	1	1401	1401	1401	99.79	4751453	1401	-2	CP016573.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3979817	3978417	1	1401	1401	1401	99.79	4751454	1401	-2	CP016576.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3978691	3977291	1	1401	1401	1401	99.79	4750330	1401	-1	CP016579.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3978692	3977292	1	1401	1401	1401	99.79	4750331	1401	-1	CP016586.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1435	2835	1	1401	1401	1401	99.79	3006	1401	1	CP016754.1__ends	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+87024	88424	1	1401	1401	1401	99.79	4920660	1401	3	CP016837.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+13	1413	1	1401	1401	1401	99.79	4686230	1401	1	CP017177.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1435	2835	1	1401	1401	1401	99.79	3006	1401	1	CP017232.1__ends	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4765719	1401	1	CP017719.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4716739	1401	1	CP017720.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4888463	1401	1	CP017723.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4686793	1401	1	CP017727.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4819807	1401	1	CP017728.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+39305	40705	1	1401	1401	1401	99.79	4593026	1401	2	CP017970.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+39305	40705	1	1401	1401	1401	99.79	4587202	1401	2	CP017971.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+39305	40705	1	1401	1401	1401	99.79	4598213	1401	2	CP017972.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+39305	40705	1	1401	1401	1401	99.79	4547966	1401	2	CP017973.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+39329	40729	1	1401	1401	1401	99.79	4773383	1401	2	CP017974.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+39305	40705	1	1401	1401	1401	99.79	4700953	1401	2	CP017975.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+39326	40726	1	1401	1401	1401	99.79	4693862	1401	2	CP017976.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+39307	40707	1	1401	1401	1401	99.79	4726140	1401	1	CP017977.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+39305	40705	1	1401	1401	1401	99.79	4655223	1401	2	CP017978.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4609911	1401	1	CP019035.1	sp|B5RFY7|DNAA_SALG2
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3895061	3893661	1	1401	1401	1401	99.79	4648086	1401	-2	CP019116.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4777591	1401	1	CP019172.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4805333	1401	1	CP019174.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4751206	1401	1	CP019176.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4805448	1401	1	CP019177.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4660922	1401	1	CP019178.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4842582	1401	1	CP019179.1	sp|B5FN10|DNAA_SALDC
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4865682	1401	1	CP019181.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4905181	1401	1	CP019183.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4592393	1401	1	CP019184.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4580689	1401	1	CP019185.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4482117	1401	1	CP019186.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4876720	1401	1	CP019189.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4572929	1401	1	CP019192.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.57	4710704	1401	1	CP019196.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4648879	1401	1	CP019197.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4879583	1401	1	CP019198.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4756014	1401	1	CP019201.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4537888	1401	1	CP019202.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4777591	1401	1	CP019204.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4777591	1401	1	CP019206.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4673894	1401	1	CP019383.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4018587	4017187	1	1401	1401	1401	99.79	4849139	1401	-3	CP019404.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4124991	4126391	1	1401	1401	1401	99.79	4801835	1401	3	CP019405.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3928105	3926705	1	1401	1401	1401	99.79	4693979	1401	-2	CP019406.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3945694	3944294	1	1401	1401	1401	99.79	4777558	1401	-1	CP019407.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3992611	3991211	1	1401	1401	1401	99.79	4847468	1401	-2	CP019408.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3883189	3881789	1	1401	1401	1401	99.79	4668861	1401	-3	CP019409.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3827385	3825985	1	1401	1401	1401	99.79	4618056	1401	-1	CP019410.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3875577	3874177	1	1401	1401	1401	99.79	4651794	1401	-1	CP019411.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3803075	3801675	1	1401	1401	1401	99.79	4566169	1401	-3	CP019412.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4116154	4114754	1	1401	1401	1401	99.79	4942273	1401	-1	CP019413.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3783867	3782467	1	1401	1401	1401	99.79	4532753	1401	-3	CP019414.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3928063	3926663	1	1401	1401	1401	99.79	4690402	1401	-1	CP019415.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3925387	3923987	1	1401	1401	1401	99.79	4691807	1401	-2	CP019416.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4024786	4023386	1	1401	1401	1401	99.57	4916040	1401	-3	CP019417.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3847680	3846280	1	1401	1401	1401	99.79	4640929	1401	-2	CP019418.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1899329	1900729	1	1401	1401	1401	99.79	4974856	1401	2	CP019442.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4066264	4064864	1	1401	1401	1401	99.79	4999862	1401	-2	CP019649.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3988592	3987192	1	1401	1401	1401	99.79	4760321	1401	-1	CP020101.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3979968	3978568	1	1401	1401	1401	99.79	4751926	1401	-2	CP020492.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4698556	1401	1	CP020565.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+2678840	2680240	1	1401	1401	1401	99.79	4485606	1401	2	CP020718.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+39305	40705	1	1401	1401	1401	99.79	4597370	1401	2	CP020752.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4679064	1401	1	CP020823.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4679401	1401	1	CP020825.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+39307	40707	1	1401	1401	1401	99.79	4694308	1401	1	CP020912.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1772879	1774279	1	1401	1401	1401	99.79	4882599	1401	2	CP020922.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4066585	4065185	1	1401	1401	1401	99.79	4879285	1401	-1	CP021462.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1401	1	1	1401	1401	1401	99.79	4855001	1401	-3	CP021909.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4679123	1401	1	CP022003.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4007632	4006232	1	1401	1401	1401	99.79	5395280	1401	-2	CP022015.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.57	4774926	1401	1	CP022034.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+2660647	2662047	1	1401	1401	1401	99.79	4863143	1401	1	CP022062.2	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4483888	4482488	1	1401	1401	1401	99.79	4916780	1401	-2	CP022069.2	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4874915	1401	1	CP022116.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.57	4822139	1401	1	CP022117.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4812886	1401	1	CP022138.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+602	2002	1	1401	1401	1401	99.79	4991167	1401	2	CP022168.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3962537	3963937	1	1401	1401	1401	99.79	4796292	1401	2	CP022489.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4276769	4278169	1	1401	1401	1401	99.79	4734880	1401	2	CP022490.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+647292	648692	1	1401	1401	1401	99.79	4775303	1401	3	CP022491.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1878293	1879693	1	1401	1401	1401	99.79	4850334	1401	2	CP022494.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+842166	840766	1	1401	1401	1401	99.79	4732484	1401	-3	CP022497.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3040607	3039207	1	1401	1401	1401	99.79	4782363	1401	-2	CP022500.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3779553	3780953	1	1401	1401	1401	99.79	4940239	1401	3	CP022503.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4089656	4088256	1	1401	1401	1401	99.79	4892239	1401	-3	CP022658.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4197260	4195860	1	1401	1401	1401	99.79	4991140	1401	-3	CP022663.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4728875	1401	1	CP022963.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4792385	1401	1	CP023166.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1435	2835	1	1401	1401	1401	99.79	3006	1401	1	CP023436.1__ends	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4707598	1401	1	CP023475.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3960929	3959529	1	1401	1401	1401	99.57	4588003	1401	-3	CP023508.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3388817	3387417	1	1401	1401	1401	99.79	4838098	1401	-3	CP023512.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4862592	1401	1	CP024164.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4801841	1401	1	CP024165.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4813545	1401	1	CP024168.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+12	1412	1	1401	1401	1401	99.79	4828397	1401	3	CP025094.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1150	2550	1	1401	1401	1401	99.79	3006	1401	1	CP025217.1__ends	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1150	2550	1	1401	1401	1401	99.79	3006	1401	1	CP025218.1__ends	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+34824	36224	1	1401	1401	1401	99.79	4863437	1401	3	CP025230.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+34823	36223	1	1401	1401	1401	99.79	4774216	1401	2	CP025232.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+34824	36224	1	1401	1401	1401	99.79	4830646	1401	3	CP025234.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+34824	36224	1	1401	1401	1401	99.79	4830765	1401	3	CP025237.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+34824	36224	1	1401	1401	1401	99.79	4859678	1401	3	CP025241.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+34824	36224	1	1401	1401	1401	99.79	4928771	1401	3	CP025243.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+38930	40330	1	1401	1401	1401	99.79	4810141	1401	2	CP025246.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+38930	40330	1	1401	1401	1401	99.79	4884276	1401	2	CP025248.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+34824	36224	1	1401	1401	1401	99.79	4899128	1401	3	CP025273.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+34850	36250	1	1401	1401	1401	99.79	4622297	1401	2	CP025276.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+39474	40874	1	1401	1401	1401	99.79	4985589	1401	3	CP025278.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+34823	36223	1	1401	1401	1401	99.79	4662027	1401	2	CP025280.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3932315	3930915	1	1401	1401	1401	99.79	4763928	1401	-2	CP025445.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3963020	3961620	1	1401	1401	1401	99.79	4794633	1401	-2	CP025446.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3931119	3929719	1	1401	1401	1401	99.79	4762730	1401	-3	CP025447.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3931123	3929723	1	1401	1401	1401	99.79	4762736	1401	-2	CP025448.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3932314	3930914	1	1401	1401	1401	99.79	4763925	1401	-3	CP025449.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3932289	3930889	1	1401	1401	1401	99.79	4763902	1401	-2	CP025450.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3932317	3930917	1	1401	1401	1401	99.79	4763929	1401	-1	CP025451.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3932317	3930917	1	1401	1401	1401	99.79	4763930	1401	-2	CP025452.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4094570	4095970	1	1401	1401	1401	99.79	4841410	1401	2	CP025453.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3931119	3929719	1	1401	1401	1401	99.79	4762732	1401	-2	CP025454.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1150	2550	1	1401	1401	1401	99.79	3006	1401	1	CP025554.1__ends	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1150	2550	1	1401	1401	1401	99.79	3006	1401	1	CP025555.1__ends	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1150	2550	1	1401	1401	1401	99.79	3006	1401	1	CP025559.1__ends	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1403	3	1	1401	1401	1401	99.79	4867164	1401	-2	CP025736.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1150	2550	1	1401	1401	1401	99.57	3006	1401	1	CP025745.1__ends	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3741924	3743324	1	1401	1401	1401	99.79	4679420	1401	3	CP026052.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4900326	1401	1	CP026327.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+34810	36210	1	1401	1401	1401	99.79	5121989	1401	1	CP026379.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4679649	1401	1	CP026569.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3412051	3413451	1	1401	1401	1401	99.79	4846817	1401	1	CP026609.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3933648	3932248	1	1401	1401	1401	99.79	4698699	1401	-1	CP026660.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1742876	1741476	1	1401	1401	1401	99.79	4870262	1401	-1	CP026700.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3377680	3379080	1	1401	1401	1401	99.79	4686022	1401	1	CP026713.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3916634	3918034	1	1401	1401	1401	99.79	4751278	1401	2	CP026976.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1880907	1882307	1	1401	1401	1401	99.79	4887378	1401	3	CP027677.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+100	1500	1	1401	1401	1401	99.79	4690295	1401	1	CP028131.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3902823	3901423	1	1401	1401	1401	99.79	4668875	1401	-3	CP028151.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3902829	3901429	1	1401	1401	1401	99.79	4668881	1401	-3	CP028157.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1902988	1904388	1	1401	1401	1401	99.79	4941290	1401	1	CP028169.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3937897	3936497	1	1401	1401	1401	99.79	4636770	1401	-3	CP028172.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4391068	4392468	1	1401	1401	1401	99.79	4740838	1401	1	CP028196.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+2942664	2941264	1	1401	1401	1401	99.79	4857558	1401	-1	CP028199.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4793457	1401	1	CP028311.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4808419	1401	1	CP028314.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4884375	1401	1	CP028318.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4037841	4036441	1	1401	1401	1401	99.57	4754975	1401	-3	CP028729.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+100	1500	1	1401	1401	1401	99.79	4833791	1401	1	CP028900.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4634278	1401	1	CP029029.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4694397	1401	1	CP029035.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4794849	1401	1	CP029036.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4766139	1401	1	CP029038.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4694399	1401	1	CP029039.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4807052	1401	1	CP029040.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4914635	1401	1	CP029041.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4694373	1401	1	CP029336.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+475245	476645	1	1401	1401	1401	99.79	4884649	1401	3	CP029486.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+2823252	2824652	1	1401	1401	1401	99.79	4900176	1401	3	CP029567.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1605349	1603949	1	1401	1401	1401	99.79	4933577	1401	-2	CP029593.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4840875	4839475	1	1401	1401	1401	99.79	4933522	1401	-2	CP029595.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4052999	4051599	1	1401	1401	1401	99.79	4865212	1401	-3	CP029839.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4057974	4056574	1	1401	1401	1401	99.79	4870227	1401	-1	CP029840.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1435	2835	1	1401	1401	1401	99.79	3006	1401	1	CP030029.1__ends	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	5052222	1401	1	CP030749.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1112495	1111095	1	1401	1401	1401	99.79	4685707	1401	-3	CP030794.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+2140844	2139444	1	1401	1401	1401	99.79	4780894	1401	-3	CP030936.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3180989	3179589	1	1401	1401	1401	99.79	4916886	1401	-2	CP032194.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3336541	3337941	1	1401	1401	1401	99.79	4704113	1401	1	CP032304.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+34449	35849	1	1401	1401	1401	99.79	4844213	1401	3	CP032379.1	sp|B5FN10|DNAA_SALDC
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+2006476	2007876	1	1401	1401	1401	99.79	4877387	1401	1	CP032384.1	sp|B5FN10|DNAA_SALDC
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+2115897	2114497	1	1401	1401	1401	99.79	4844293	1401	-2	CP032387.1	sp|B5FN10|DNAA_SALDC
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+872050	870650	1	1401	1401	1401	99.79	4846886	1401	-2	CP032390.1	sp|B5FN10|DNAA_SALDC
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+634658	636058	1	1401	1401	1401	99.79	4858438	1401	2	CP032393.1	sp|B5FN10|DNAA_SALDC
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1399421	1398021	1	1401	1401	1401	99.79	4868095	1401	-3	CP032396.1	sp|B5FN10|DNAA_SALDC
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+35676	37076	1	1401	1401	1401	99.79	4732430	1401	3	CP032444.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+34449	35849	1	1401	1401	1401	99.79	4844133	1401	3	CP032446.1	sp|B5FN10|DNAA_SALDC
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+34827	36227	1	1401	1401	1401	99.79	4913018	1401	3	CP032449.1	sp|B5FN10|DNAA_SALDC
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4024740	4023340	1	1401	1401	1401	99.79	4837346	1401	-3	CP032490.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3951557	3950157	1	1401	1401	1401	99.79	4764173	1401	-1	CP032494.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4727462	1401	1	CP032622.2	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4985863	1401	1	CP032814.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4588222	1401	1	CP032816.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4985874	1401	1	CP032817.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1000	2400	1	1401	1401	1401	99.79	4679739	1401	1	CP032851.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+13	1413	1	1401	1401	1401	99.79	4676321	1401	1	CP033090.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+98	1498	1	1401	1401	1401	99.79	4990577	1401	2	CP033226.2	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+121	1521	1	1401	1401	1401	99.79	4957526	1401	1	CP033255.2	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+168	1568	1	1401	1401	1401	99.79	4991162	1401	3	CP033257.2	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4689440	1401	1	CP033338.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4668874	1401	1	CP033340.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4709669	1401	1	CP033343.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4651134	1401	1	CP033344.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4834056	1401	1	CP033345.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+97	1497	1	1401	1401	1401	99.79	4696663	1401	1	CP033348.2	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+154	1554	1	1401	1401	1401	99.79	4834516	1401	1	CP033350.2	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+104	1504	1	1401	1401	1401	99.79	4733813	1401	2	CP033356.2	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4636649	4635249	1	1401	1401	1401	99.79	4636747	1401	-3	CP033360.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+126	1526	1	1401	1401	1401	99.79	4760689	1401	3	CP033387.2	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+148524	149924	1	1401	1401	1401	99.79	4724806	1401	3	CP034177.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4869644	1401	1	CP034230.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4759051	1401	1	CP034232.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4050527	4051927	1	1401	1401	1401	99.79	4818442	1401	2	CP034233.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4870261	1401	1	CP034479.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4766197	1401	1	CP034719.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4704163	4702763	1	1401	1401	1401	99.79	4704163	1401	-1	CP034773.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4905039	1401	1	CP035301.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4051922	4050522	1	1401	1401	1401	99.79	4863742	1401	-3	CP035547.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+78348	79748	1	1401	1401	1401	99.79	4851542	1401	3	CP036165.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+39789	41189	1	1401	1401	1401	99.57	4808491	1401	3	CP036166.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+34825	36225	1	1401	1401	1401	99.79	4924354	1401	1	CP036167.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+39141	40541	1	1401	1401	1401	99.79	4930312	1401	3	CP036168.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4006144	4004744	1	1401	1401	1401	99.79	4817234	1401	-2	CP037874.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3974734	3973334	1	1401	1401	1401	99.79	4786287	1401	-3	CP037877.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4063228	4061828	1	1401	1401	1401	99.79	4996832	1401	-2	CP037882.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4580505	4579105	1	1401	1401	1401	99.79	4611179	1401	-3	CP037891.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+39488	40888	1	1401	1401	1401	99.79	4768632	1401	2	CP037893.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+36616	38016	1	1401	1401	1401	99.79	4820913	1401	1	CP037894.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4847949	1401	1	CP037917.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.57	4645553	1401	1	CP037960.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+768108	769508	1	1401	1401	1401	99.79	4651105	1401	3	CP038233.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+259936	261336	1	1401	1401	1401	99.79	4727696	1401	1	CP038507.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3979787	3978387	1	1401	1401	1401	99.79	4830203	1401	-1	CP038591.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3979828	3978428	1	1401	1401	1401	99.79	4830242	1401	-2	CP038593.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3843935	3842535	1	1401	1401	1401	99.79	4633429	1401	-3	CP038595.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4000366	3998966	1	1401	1401	1401	99.79	4804514	1401	-2	CP038601.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4238541	4237141	1	1401	1401	1401	99.79	5121080	1401	-3	CP038604.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4238110	4236710	1	1401	1401	1401	99.79	5120648	1401	-2	CP038608.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3920404	3921804	1	1401	1401	1401	99.79	4854979	1401	1	CP038847.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4077458	4076058	1	1401	1401	1401	99.79	4930644	1401	-2	CP038849.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3427494	3428894	1	1401	1401	1401	99.57	4645545	1401	3	CP039169.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4905224	1401	1	CP039270.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3947618	3946218	1	1401	1401	1401	99.79	4710675	1401	-2	CP039277.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4238421	4237021	1	1401	1401	1401	99.79	5120962	1401	-2	CP039279.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4949832	1401	1	CP039436.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4680581	1401	1	CP039437.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4831443	1401	1	CP039439.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4727127	1401	1	CP039441.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4727131	1401	1	CP039443.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4727130	1401	1	CP039445.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4726559	1401	1	CP039463.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4726540	1401	1	CP039465.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4726542	1401	1	CP039467.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4726545	1401	1	CP039469.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4726554	1401	1	CP039471.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4726548	1401	1	CP039473.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4726558	1401	1	CP039476.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+No suitable promer matches found
+Using the following prodigal predictions to circularize contigs:
+CP039477.1	Prodigal_v2.6.3	CDS	2363140	2364942	205.6	+	0	ID=1_2182;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=11-12bp;gc_cont=0.526;conf=99.99;score=205.55;cscore=200.81;sscore=4.75;rscore=-1.69;uscore=1.56;tscore=3.62;
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4726552	1401	1	CP039478.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4726543	1401	1	CP039480.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4726558	1401	1	CP039482.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4726550	1401	1	CP039484.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4726556	1401	1	CP039486.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4726557	1401	1	CP039487.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4726556	1401	1	CP039489.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4726555	1401	1	CP039491.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4726500	1401	1	CP039493.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4726555	1401	1	CP039496.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4774876	1401	1	CP039498.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4727570	1401	1	CP039499.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4727567	1401	1	CP039500.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3971676	3970276	1	1401	1401	1401	99.79	4783087	1401	-2	CP039558.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4082840	4081440	1	1401	1401	1401	99.79	4976848	1401	-3	CP039561.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4063047	4061647	1	1401	1401	1401	99.79	4996602	1401	-1	CP039564.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4003312	4001912	1	1401	1401	1401	99.79	4815188	1401	-2	CP039565.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4003616	4002216	1	1401	1401	1401	99.79	4815492	1401	-2	CP039567.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4117184	4116138	1	1047	1047	1047	99.43	4929627	1047	-2	CP039569.1	tr|A0A181CNW5|A0A181CNW5_9ENTR
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4087343	4085943	1	1401	1401	1401	99.79	4980665	1401	-1	CP039572.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4077182	4075782	1	1401	1401	1401	99.79	4931770	1401	-3	CP039576.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4048752	4047352	1	1401	1401	1401	99.79	4903154	1401	-3	CP039579.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4088196	4086796	1	1401	1401	1401	99.79	4933557	1401	-1	CP039582.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4002628	4001228	1	1401	1401	1401	99.79	4814945	1401	-2	CP039585.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4076248	4074848	1	1401	1401	1401	99.79	4969530	1401	-3	CP039588.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4087979	4086579	1	1401	1401	1401	99.79	4942800	1401	-2	CP039591.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4046572	4045172	1	1401	1401	1401	99.79	4980483	1401	-3	CP039593.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4044767	4043367	1	1401	1401	1401	99.79	4856638	1401	-3	CP039595.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4023946	4022546	1	1401	1401	1401	99.79	4917230	1401	-2	CP039599.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4007210	4005810	1	1401	1401	1401	99.79	4819943	1401	-1	CP039603.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4065866	4064466	1	1401	1401	1401	99.79	4999790	1401	-1	CP039607.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4061906	4060506	1	1401	1401	1401	99.79	4995830	1401	-1	CP039610.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4003061	4002015	1	1047	1047	1047	99.43	4815118	1047	-3	CP039713.1	tr|A0A181CNW5|A0A181CNW5_9ENTR
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3977319	3975919	1	1401	1401	1401	99.79	4789195	1401	-2	CP039716.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4083561	4082515	1	1047	1047	1047	99.43	4976023	1047	-2	CP039719.1	tr|A0A181CNW5|A0A181CNW5_9ENTR
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+2547884	2549284	1	1401	1401	1401	99.79	4788761	1401	2	CP039757.1	sp|Q57I00|DNAA_SALCH
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4003830	4002784	1	1047	1047	1047	99.43	4817004	1047	-1	CP039854.1	tr|A0A181CNW5|A0A181CNW5_9ENTR
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4127489	4126089	1	1401	1401	1401	99.79	4980672	1401	-2	CP039856.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4063679	4062279	1	1401	1401	1401	99.79	4997600	1401	-1	CP039860.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4095767	4094367	1	1401	1401	1401	99.79	4908183	1401	-2	CP040318.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4619529	1401	1	CP040379.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4615193	1401	1	CP040380.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4902004	1401	1	CP040562.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4883741	1401	1	CP040564.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4857789	1401	1	CP040566.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4965236	1401	1	CP040568.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4680325	1401	1	CP040644.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4679507	1401	1	CP040646.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4093152	4092106	1	1047	1047	1047	99.43	4905849	1047	-1	CP040648.1	tr|A0A181CNW5|A0A181CNW5_9ENTR
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4114385	4112985	1	1401	1401	1401	99.79	4925949	1401	-2	CP040651.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4049080	4047680	1	1401	1401	1401	99.79	4904134	1401	-1	CP040668.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4105037	4103637	1	1401	1401	1401	99.79	5031277	1401	-3	CP040686.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.57	4813658	1401	1	CP040900.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4726498	4727898	1	1401	1401	1401	99.79	4857490	1401	1	CP041005.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4125557	4124157	1	1401	1401	1401	99.79	4968488	1401	-1	CP041026.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4752859	1401	1	CP041183.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4718314	1401	1	CP041184.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4795996	1401	1	CP041208.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3831657	3833057	1	1401	1401	1401	99.79	4879141	1401	3	CP041622.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4918293	1401	1	CP042438.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4872954	1401	1	CP042440.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4674371	1401	1	CP042441.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4179290	4180690	1	1401	1401	1401	99.79	4736175	1401	2	CP042442.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4748708	1401	1	CP042443.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4740022	1401	1	CP043027.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4751368	1401	1	CP043214.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1417484	1418884	1	1401	1401	1401	99.79	4766173	1401	2	CP043222.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4685587	1401	1	CP043433.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+13	1413	1	1401	1401	1401	99.79	4930938	1401	1	CP043509.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4680830	1401	1	CP043563.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4731335	1401	1	CP043564.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4679917	4678517	1	1401	1401	1401	99.79	4903781	1401	-2	CP043662.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4889798	1401	1	CP043664.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4851336	1401	1	CP043667.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4441582	4442982	1	1401	1401	1401	99.79	4804635	1401	1	CP044007.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4012055	4010655	1	1401	1401	1401	99.79	5139919	1401	-3	CP044177.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+2170776	2172176	1	1401	1401	1401	99.79	4751364	1401	3	CP044181.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+2121771	2120371	1	1401	1401	1401	99.79	4856104	1401	-2	CP044184.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1492571	1491171	1	1401	1401	1401	99.79	4963375	1401	-3	CP044186.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1258040	1259440	1	1401	1401	1401	99.79	4925831	1401	2	CP044188.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3765799	3764399	1	1401	1401	1401	99.79	4970880	1401	-3	CP044198.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3371623	3370223	1	1401	1401	1401	99.79	4803391	1401	-1	CP044203.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3975415	3974015	1	1401	1401	1401	99.79	4787290	1401	-1	CP044957.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4070614	4069214	1	1401	1401	1401	99.79	5004306	1401	-3	CP044961.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+265	1311	1	1047	1047	1047	99.43	4773032	1047	1	CP044967.1	tr|A0A181CNW5|A0A181CNW5_9ENTR
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	5000356	1401	1	CP045038.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4105763	4104363	1	1401	1401	1401	99.79	4930424	1401	-1	CP045056.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4105874	4104474	1	1401	1401	1401	99.79	4930422	1401	-2	CP045059.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4105759	4104359	1	1401	1401	1401	99.79	4930420	1401	-1	CP045063.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4631209	1401	1	CP045444.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4630202	1401	1	CP045447.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+2084881	2086281	1	1401	1401	1401	99.79	4641662	1401	1	CP045458.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+2084930	2086330	1	1401	1401	1401	99.79	4670959	1401	2	CP045461.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+2121484	2122884	1	1401	1401	1401	99.79	4773013	1401	1	CP045464.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+2121248	2122648	1	1401	1401	1401	99.79	4813791	1401	2	CP045465.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+2085007	2086407	1	1401	1401	1401	99.79	4671091	1401	1	CP045466.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+2084846	2086246	1	1401	1401	1401	99.79	4641638	1401	2	CP045509.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+2121251	2122651	1	1401	1401	1401	99.79	4773053	1401	2	CP045513.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+2116918	2118318	1	1401	1401	1401	99.79	4673793	1401	1	CP045515.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+2084974	2086374	1	1401	1401	1401	99.79	4641555	1401	1	CP045516.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+2084930	2086330	1	1401	1401	1401	99.79	4641736	1401	2	CP045518.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4744949	1401	1	CP045831.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4705038	1401	1	CP045945.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4964749	1401	1	CP045947.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4865665	1401	1	CP045949.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	5022086	1401	1	CP045952.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4731476	1401	1	CP045954.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4703625	1401	1	CP045955.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4642207	1401	1	CP045956.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4692229	1401	1	CP045958.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3626668	3628068	1	1401	1401	1401	99.79	4611029	1401	1	CP046277.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4434688	4436088	1	1401	1401	1401	99.79	5136727	1401	1	CP046278.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+2518960	2517560	1	1401	1401	1401	99.79	4556079	1401	-3	CP046279.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3921847	3920447	1	1401	1401	1401	99.79	4575198	1401	-3	CP046280.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4656228	4657628	1	1401	1401	1401	99.79	4884738	1401	3	CP046283.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+2090618	2092018	1	1401	1401	1401	99.79	4668186	1401	2	CP046291.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4812688	1401	1	CP046429.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	5013113	1401	1	CP047115.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4501397	4499997	1	1401	1401	1401	99.79	4725957	1401	-2	CP047881.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4799305	1401	1	CP048297.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4754451	1401	1	CP048301.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1150	2550	1	1401	1401	1401	99.79	3006	1401	1	CP048926.1__ends	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4782639	1401	1	CP049306.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4723925	1401	1	CP049308.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4821913	1401	1	CP049310.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	5163233	1401	1	CP049312.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	5129736	1401	1	CP049313.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4177068	4178468	1	1401	1401	1401	99.79	4674190	1401	3	CP049873.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3390449	3391849	1	1401	1401	1401	99.79	4597011	1401	2	CP049874.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+110836	109436	1	1401	1401	1401	99.79	4673887	1401	-1	CP049875.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+148913	150313	1	1401	1401	1401	99.79	4673633	1401	2	CP049878.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4606341	4607741	1	1401	1401	1401	99.79	4633005	1401	3	CP049879.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+199078	200478	1	1401	1401	1401	99.79	4678052	1401	1	CP049880.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4261787	4263187	1	1401	1401	1401	99.79	4662031	1401	2	CP049881.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4079255	4080655	1	1401	1401	1401	99.79	4662107	1401	2	CP049882.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1603308	1601908	1	1401	1401	1401	99.79	4657667	1401	-3	CP049883.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4325020	4323620	1	1401	1401	1401	99.79	4662216	1401	-3	CP049884.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1100475	1099075	1	1401	1401	1401	99.79	4941876	1401	-1	CP049981.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1150	2550	1	1401	1401	1401	99.79	3006	1401	1	CP049983.1__ends	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4913589	1401	1	CP049986.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4679542	1401	1	CP050706.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4679799	1401	1	CP050709.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4679142	1401	1	CP050712.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4738616	1401	1	CP050721.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4679573	1401	1	CP050723.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4962482	1401	1	CP050728.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4906732	1401	1	CP050734.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4948999	1401	1	CP050739.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4970193	1401	1	CP050745.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4783488	1401	1	CP050762.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4858857	1401	1	CP050764.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4925928	1401	1	CP050769.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4740209	1401	1	CP050771.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4744651	1401	1	CP050779.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4817294	1401	1	CP050783.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.57	4744578	1401	1	CP050833.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1128939	1127893	1	1047	1047	1047	99.43	4647334	1047	-2	CP050968.1	tr|A0A181CNW5|A0A181CNW5_9ENTR
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1173801	1175201	1	1401	1401	1401	99.79	4745055	1401	3	CP050990.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4815388	1401	1	CP051267.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4819669	1401	1	CP051269.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+35456	36856	1	1401	1401	1401	99.79	4727119	1401	2	CP051675.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+35420	36820	1	1401	1401	1401	99.79	4742055	1401	2	CP052775.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4702548	4701148	1	1401	1401	1401	99.79	4737379	1401	-2	CP052776.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+35468	36868	1	1401	1401	1401	99.79	4662734	1401	2	CP052777.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4693522	4692122	1	1401	1401	1401	99.79	4728349	1401	-1	CP052778.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4698837	4697437	1	1401	1401	1401	99.79	4733539	1401	-2	CP052780.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4727148	1401	1	CP052782.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4728101	1401	1	CP052785.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4727147	1401	1	CP052787.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+247304	248704	1	1401	1401	1401	99.79	4728224	1401	2	CP052789.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4728303	1401	1	CP052792.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4687321	1401	1	CP052794.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4833611	1401	1	CP052796.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4727135	1401	1	CP052798.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4727146	1401	1	CP052805.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4728214	1401	1	CP052807.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4727026	1401	1	CP052809.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4728348	1401	1	CP052811.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4726519	1401	1	CP052813.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4727100	1401	1	CP052815.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4727152	1401	1	CP052817.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4727121	1401	1	CP052819.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4727144	1401	1	CP052821.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4727126	1401	1	CP052823.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4727130	1401	1	CP052825.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4728349	1401	1	CP052827.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4693682	4692282	1	1401	1401	1401	99.79	4728347	1401	-1	CP052829.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4727118	1401	1	CP052831.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4727150	1401	1	CP052833.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4727146	1401	1	CP052835.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4727141	1401	1	CP052837.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4727142	1401	1	CP052839.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4067560	4066160	1	1401	1401	1401	99.79	4879234	1401	-1	CP053865.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4068782	4067382	1	1401	1401	1401	99.79	4881794	1401	-1	CP053870.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4669238	1401	1	CP054827.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3541775	3543175	1	1401	1401	1401	99.79	4822365	1401	2	CP054897.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1110954	1109554	1	1401	1401	1401	99.79	4667369	1401	-3	CP054901.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1009161	1007761	1	1401	1401	1401	99.79	4890046	1401	-2	CP055130.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+428	1828	1	1401	1401	1401	99.79	4746179	1401	2	CP060132.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+428	1828	1	1401	1401	1401	99.79	4747268	1401	2	CP060134.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4064558	4063158	1	1401	1401	1401	99.79	4876060	1401	-3	CP060165.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4066463	4065063	1	1401	1401	1401	99.79	4877978	1401	-1	CP060169.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4654369	1401	1	CP060508.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4461948	4460548	1	1401	1401	1401	99.79	4686427	1401	-2	CP060512.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	5017156	1401	1	CP060515.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4715485	1401	1	CP060517.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4679617	1401	1	CP060522.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4753246	4751846	1	1401	1401	1401	99.79	5024703	1401	-3	CP060730.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4899433	1401	1	CP061044.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4817809	1401	1	CP061045.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4899622	1401	1	CP061047.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4899618	1401	1	CP061049.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4817841	1401	1	CP061050.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4725087	1401	1	CP061159.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4753424	4752024	1	1401	1401	1401	99.79	5024881	1401	-3	CP061929.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4753424	4752024	1	1401	1401	1401	99.79	5024881	1401	-3	CP062004.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+4744472	4743072	1	1401	1401	1401	99.57	4799045	1401	-1	CP062220.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.57	4645545	1401	1	CP062223.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.57	4646755	1401	1	CP062225.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4713149	1401	1	CP063289.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4790379	1401	1	CP063294.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+1	1401	1	1401	1401	1401	99.79	4864685	1401	1	CP063330.1	sp|A9MX77|DNAA_SALPB
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3919916	3918516	1	1401	1401	1401	99.79	4685852	1401	-1	CP063700.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3983317	3981917	1	1401	1401	1401	99.79	4749264	1401	-3	CP063702.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3970614	3969214	1	1401	1401	1401	99.79	4736564	1401	-3	CP063705.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+3919876	3918476	1	1401	1401	1401	99.79	4685812	1401	-1	CP063708.1	sp|B5QUQ0|DNAA_SALEP
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+35547	36947	1	1401	1401	1401	99.79	4845459	1401	3	CP063754.1	sp|B5FN10|DNAA_SALDC
+No sequences left for which to look for genes using prodigal. Skipping
+Using the following promer matches to circularize contigs:
+35421	36821	1	1401	1401	1401	99.79	4844168	1401	3	CP063756.1	sp|B5FN10|DNAA_SALDC
+No sequences left for which to look for genes using prodigal. Skipping
