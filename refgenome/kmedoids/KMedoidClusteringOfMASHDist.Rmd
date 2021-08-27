@@ -1,0 +1,206 @@
+---
+title: "Salmonella Project Reference Genome K-medoids Clustering"
+author: "John Christian Gaby"
+date: "January 27, 2021"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(tidy=TRUE, tidy.opts=list(width.cutoff=73))
+```
+
+## MASH (Minimum HASH) of the ~600 *S. enterica* Reference Genomes
+
+I have previously ceated MASH sketches of the nearly 600 complete, contiguous *S. enterica* chromosomes that will be used to construct a reference graph. After creating the MASH sketches, I calculated all pairwise distances and made a distance matrix using a custom script that I wrote, which will be imported into R.
+
+Before importing, I opened the tab-delimited file in a Calc spreadsheet and removed the directory names from each chromosome accession using the find and replace tool in the spreadsheet. The modified file without the directories in the row and column names is "/home/chrisgaby/Documents/USDA/data/MASH/salmRefChromMASHDist2.tab".
+
+I begin by loading libraries that will be needed to perform the analyses. The library ggplot2 provides data visualization capability while the library factoextra provides functions for visualization of k-means data objects.
+
+```{r}
+
+# Load the required libraries.
+library(ggplot2) # Visualiztion.
+library(factoextra) # For certain plots like Silhouette plots.
+library(vegan) # For MDS ordination fucntion.
+# library(RANN) # For nearest neighbor algorithm.
+library(cluster) # For the pam() function that performs k-medoids analysis.
+
+```
+
+Next, I import the file and view a portion of the distance matrix object.
+
+```{r}
+
+# Import the MASH symmetric square matrix that I made using a unix script that calculated pairwise distances for all 592 chromosomes.
+dm <- read.table("/home/chrisgaby/Documents/USDA/data/MASH/salmRefChromMASHDist2.tab", header=T)
+
+# Preview the distance matrix.
+dm[1:5,1:5]
+
+```
+
+And the matrix is square and symmetric.
+
+Now lets see the number of rows and columns.
+
+```{r}
+nrow(dm)
+ncol(dm)
+```
+
+There are `r nrow(dm)` rows and `r ncol(dm)` columns. The rownames and column names are the same; for example, the first 5 row names are `r head(rownames(dm))` and the first 5 column names are `r head(colnames(dm))`. The names of the rows and columns correspond to the chromosome FASTA filenames, and hence the ".fa" extensions are extraneous as column and row identifiers. However, the basename, e.g. AP019692.1, corresponds to the Genbank accessions for the *S. enterica* chromosomes used for the MASH distance calculations.
+
+## Remove the Outliers
+
+Previous work established that there are 17 outliers that correspond to subspecies other than enterica. Given that k-means clustering is sensitive to outliers, these need to be removed before performing the k-means clustering. The outlier identifiers are the following:
+
+ [1] "CP011289.1.fa" "CP022135.1.fa" "CP022467.1.fa" "CP022504.1.fa" "CP023345.1.fa" "CP034074.1.fa" "CP034697.1.fa" "CP034717.1.fa"
+ [9] "CP041011.1.fa" "CP053579.1.fa" "CP053581.1.fa" "CP053582.1.fa" "CP053584.1.fa" "CP053585.1.fa" "CP054422.1.fa" "CP054715.1.fa"
+[17] "CP059886.1.fa"
+
+The following code removes the rows and columns corresponding to the MASH distances for these outliers, thereby resulting in a reduced distance matrix of all pairwise distances for the remaining 575 chromosomes.
+
+```{r}
+
+# Subsetting may be based on the row or column names, which correspond to Genbank accessions, plus the ".fa" extension of the filename.
+#dm["CP011289.1.fa",]
+#dm[,"CP011289.1.fa"]
+
+# Remove the outlier rows and columns by subsetting the distance matrix to omit by using a negative or "-".
+# Create a vector of the row numbers corresponding to the outlier names.
+ix <- which(rownames(dm) %in% c("CP011289.1.fa", "CP022135.1.fa", "CP022467.1.fa", "CP022504.1.fa", "CP023345.1.fa", "CP034074.1.fa", "CP034697.1.fa", "CP034717.1.fa", "CP041011.1.fa", "CP053579.1.fa", "CP053581.1.fa", "CP053582.1.fa", "CP053584.1.fa", "CP053585.1.fa", "CP054422.1.fa", "CP054715.1.fa", "CP059886.1.fa"))
+# Remove the row outliers.
+clean <- dm[-ix, ]
+# Create a vector of the column numbers corresponding to the outlier names.
+ix.col <- which(colnames(dm) %in% c("CP011289.1.fa", "CP022135.1.fa", "CP022467.1.fa", "CP022504.1.fa", "CP023345.1.fa", "CP034074.1.fa", "CP034697.1.fa", "CP034717.1.fa", "CP041011.1.fa", "CP053579.1.fa", "CP053581.1.fa", "CP053582.1.fa", "CP053584.1.fa", "CP053585.1.fa", "CP054422.1.fa", "CP054715.1.fa", "CP059886.1.fa"))
+# Remove the column outliers.
+clean.row.col <- clean[,-ix.col ]
+
+# Check the dimensions of the original vs. the cleaned distance matrix to see that it is indeed reduced accordingly.
+dim(dm) # Returns 592 X 592
+dim(clean.row.col) # Should return 575 x 575
+nrow(clean.row.col) # Should return 575
+ncol(clean.row.col) # Should return 575
+
+# Give the reduced distance matrix a more intuitive name.
+dm.clean = clean.row.col
+
+```
+
+## Use K-medoids Clustering to Identify Centroid Representatives for Clusters
+
+The K-medoids algorithm outputs an object with a component that identifies the sample (in our case the chromosome) closest to the centroid and thus representative of the cluster. K-medoids is a technique that is less vulnerable to outliers and that is suitable for working with non-Euclidian.
+
+Note that the k-medoids function pam() also takes a distance matrix as input, hence the `diss = TRUE` parameter.
+
+```{r}
+
+# Create an ordination of the whole dataset in the original data matrix, onto which the cluster representatives will be marked. Note that it's better to do this outside the loop because depending on how high the trymax argument is set, it may be time consuming, and it's better to have the plot as an object to which the medoid representatives are manually added with each loop iteration.
+NMDS.cluster=metaMDS(dm.clean, distance="jaccard", k=2, try = 20, trymax = 300)
+  
+# Create an object for the X,Y coordinates of the ordination of the cluster distance matrix.
+plot2xy <- NMDS.cluster$points
+  
+# Create the initial ggplot object.
+plot <- ggplot(as.data.frame(plot2xy), aes(x=plot2xy[,1], y=plot2xy[,2])) + geom_point(size=2, shape=1)
+  
+# Define the number of clusters for which chromosome representatives will be generated.
+clusters = c(5, 10, 15, 20, 25, 50, 100, 150, 200, 250)
+
+for (clus in clusters) {
+
+  # Create the k-medoids object using the pam() function.
+  Senterica.pam.res <- pam(dm.clean, k = clus, diss = TRUE)
+  
+  # Bind the medoid representatives into a table using cbind and adding a number for the cluster
+  kmedoids.clust.reps <- cbind(1:clus, Senterica.pam.res$medoids)
+    
+  # Add descriptive column headers.
+  colnames(kmedoids.clust.reps)[1:2] <- c("ClusterNumber","ClusterRepresentative")
+  
+  # Write a table of cluster number and chromosome accessions that represent the medoid.
+  write.table(kmedoids.clust.reps, file=paste0(clus, "ChromRepsKmedoids.tsv"), quote=FALSE, sep='\t', row.names = FALSE)
+  
+  # Mark the medoid representatives on the plot and change the plot theme.
+  plot2 <- plot + 
+    annotate("point", 
+             x = plot2xy[Senterica.pam.res$medoids,1], 
+             y = plot2xy[Senterica.pam.res$medoids,2], 
+             colour = "red", 
+             shape = 2, 
+             size = 3) +
+    theme_bw()
+  
+  # Save a plot for each cluster size as png graphics files.
+  ggsave(paste0(clus,"ChromRepsKmedoids.png"), width = 6, height = 6, units = "in") 
+
+}
+  
+  
+```
+
+## A Verification
+
+The medoids component of the k-medoids data object is a list of the sample names that best represent each medoid. The designation of cluster medoids is also given in the id.med component, which is a vector of indices indicating which samples from the original distance matrix were identified as the medoids.
+
+The result of the following statement should be TRUE for all medoid representatives.
+
+```{r}
+
+names(dm.clean)[Senterica.pam.res$id.med] == Senterica.pam.res$medoids
+
+```
+
+# Determining the Optimal Number of Clusters
+
+Several visualizations may be used to identify the optimal number of clusters.
+
+It should probably be kept in mind that the chromosome representation in our set of 575 complete, circular *S. enterica* chromosomes is biased in that only about 100 of the ~1400 known serotypes are represented in our data, and certain serotypes are more highly represented than others. I suspect this may have an effect on clusters apparent in our dataset and thus on the estimation of optimal clusters. That is, if we had a more even representation of all known serotypes, then there may appear to be a higher number of optimal clusters.
+
+The fviz_nbclust() function of the factoextra package generates visualizations that help to identify the optimal number of clusters in a dataset.
+
+## Silhouette Plot
+
+```{r}
+
+plot.silhouette <- fviz_nbclust(dm.clean, cluster::pam, k.max = 50, method = "silhouette")
+
+plot.silhouette + theme(axis.text.x = element_text(size = 6)) #, angle=90, hjust=1
+
+# Save the wss plot
+ggsave("Kmedoids50Silhouette.png", width = 6, height = 6, units = "in") 
+
+```
+
+The result suggests that about 15 clusters may be optimal. We should verify whether this is also true of the rarefaction analysis based on the accumulation of novel SNPs and structural variants.
+
+## Within Cluster Sum of Squares Plot
+
+```{r}
+
+plot.wss <- fviz_nbclust(dm.clean, cluster::pam, k.max = 50, method = "wss")
+
+plot.wss + theme(axis.text.x = element_text(size = 6)) #, angle=90, hjust=1
+
+# Save the wss plot
+ggsave("Kmedoids50WSS.png", width = 6, height = 6, units = "in") 
+
+```
+
+## Gap Statistics Plot
+
+The gap statistic takes a long time to calculate.
+
+```{r}
+
+plot.gapstat <- fviz_nbclust(dm.clean, cluster::pam, k.max = 50, method = "gap_stat")
+
+plot.gapstat + theme(axis.text.x = element_text(size = 6)) #, angle=90, hjust=1
+
+# Save the wss plot
+ggsave("Kmedoids50GapStat.png", width = 6, height = 6, units = "in") 
+
+```
