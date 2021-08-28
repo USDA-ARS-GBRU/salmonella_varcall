@@ -1,6 +1,8 @@
 # salmonella_varcall
 Development of a variant calling pipeline for *Salmonella* genomic data.
 
+## Folder Contents
+
 This repository contains the following folders:
 
 1. `docker` The dockerfile that specifies instructions to create the docker image, which includes all software, files, and dependencies required to execute conventional SNP calling as well as the novel reference graph-based variant calling.
@@ -19,3 +21,23 @@ This repository contains the following folders:
    2. `mpileup` SNP calling with the samtools mpileup program.
    3. `refgenome` The reference genome of *Salmonella enterica* type strain LT2 used in the SNP calling.
 6. `varcalling` The variant calling pipeline that uses a custom *Salmonella enterica* reference graph.
+
+## Software Used in This Project
+
+The following is a list of the software used in this project:
+
+### Circlator
+Circlator was used to set the origin of replication for the reference *S. enterica* chromosomes that were used to create the reference graph.
+
+[Circlator on Github](https://github.com/sanger-pathogens/circlator)
+
+### FreeBayes
+
+### MASH
+MASH was used to compare similarity of the reference *S. enterica* chromosomes.
+
+### Samtools
+
+### VG
+
+
