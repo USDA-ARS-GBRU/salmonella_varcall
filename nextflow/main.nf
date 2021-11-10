@@ -12,7 +12,6 @@ LT2ref = Channel.fromPath( '/home/chrisgaby/Documents/USDA/GoogleCloudSimpleNext
 
 projectSRId = params.project
 
-
 int threads = Runtime.getRuntime().availableProcessors()
 
 process getSRA {
@@ -41,26 +40,29 @@ process fastqDump {
 
 	publishDir params.resultdir, mode: 'copy'
 
-	cpus threads
-
 	input:
 	val id from singleSRAIdFQD
 
 	output:
 	file '*.fastq.gz' into reads
 
+	//Note that the number of spot IDs should be determined based on read length for a dataset in order to achieve 60X genome coverage
+
 	script:
 	"""
-	fastq-dump --read-filter pass --split-spot --clip --skip-technical --readids --maxSpotId 2000000 ${id}
-	"""	
+	fastq-dump --clip --skip-technical --readids --maxSpotId 2000000 --gzip ${id}
+	"""
+
+	// --read-filter pass
+	// --split-files
 	//parallel-fastq-dump --sra-id $id --threads ${task.cpus} --gzip
 }
 
-reads.into { reads_dashing; reads_fastqc; reads_gunzip; reads_bwamap }
+reads.into { reads_dashing; reads_fastqc; reads_gunzip; }
 
 process dashingSketch {
 
-	publishDir params.resultdir, mode: 'copy'
+	publishDir '/home/chrisgaby/Documents/USDA/GoogleCloudSimpleNextflow/dashing', mode: 'move', overwrite: false
 
 	cpus threads
 
@@ -68,21 +70,21 @@ process dashingSketch {
 	file read from reads_dashing
 	
 	output:
-	file '*.hll' into publishDir
+	file '*.hll'
 	
 	script:
 	readName = read.toString() - ~/(\.fastq\.gz)?$/
 	
 	"""
-	/home/chrisgaby/program_executables/dashing/dashing sketch -S 10 -k 16 $read
+	/home/chrisgaby/program_executables/dashing/dashing sketch --nthreads $threads -S 10 -k 16 $read
 	"""
 }
 
 process fastQC {
 
-	//publishDir params.resultdir, mode: 'copy'
+	//publishDir params.resultdir, mode: 'move'
 
-	//cpus threads
+	cpus threads
 
 	input:
 	file read from reads_fastqc
@@ -93,7 +95,7 @@ process fastQC {
 	script:
 	
 	"""
-	~/program_executables/fastqc_v0.11.8/FastQC/fastqc -f fastq --extract -o $params.qualevaldir $read
+	~/program_executables/fastqc_v0.11.8/FastQC/fastqc -t $threads -f fastq --extract -o $params.qualevaldir $read
 	"""
 }
 
@@ -117,7 +119,12 @@ process indexRef {
 
 process gunzipReads {
 
-	echo true
+	publishDir params.resultdir, mode: 'copy', overwrite: false
+
+	//echo true
+
+	output:
+	file '*.fastq' into reads_unzipped
 
 	input:
 	file read from reads_gunzip
@@ -125,18 +132,20 @@ process gunzipReads {
 	script:
 
 	"""
-	echo ${read}
-	echo ${read.baseName}
-	gunzip --keep /home/chrisgaby/Documents/USDA/GoogleCloudSimpleNextflow/results/${read.baseName}.gz
+	gunzip -f ${read}
 	"""
+	//echo ${read}
+	//echo ${read.baseName}
 }
 
 process mapReads {
 
-	publishDir '/home/chrisgaby/Documents/USDA/GoogleCloudSimpleNextflow/mappedToRef/', mode: 'move', overwrite: false
+	publishDir '/home/chrisgaby/Documents/USDA/GoogleCloudSimpleNextflow/mappedToRef/', mode: 'copy', overwrite: false
+
+	cpus threads
 
 	input:
-	file read from reads_bwamap
+	file read from reads_unzipped
 	//file '*' from bwa_index.first()
 	//val id from singleSRAIdMR
 
@@ -146,12 +155,12 @@ process mapReads {
 	script:
 
 	"""
-	bwa mem /home/chrisgaby/Documents/USDA/GoogleCloudSimpleNextflow/AE006468.2.fasta /home/chrisgaby/Documents/USDA/GoogleCloudSimpleNextflow/results/${read.baseName} | samtools sort -o ${read.simpleName}ChromMappedToLT2ref.bam
+	bwa mem /home/chrisgaby/Documents/USDA/GoogleCloudSimpleNextflow/AE006468.2.fasta /home/chrisgaby/Documents/USDA/GoogleCloudSimpleNextflow/results/${read} -t $threads | samtools sort -o ${read.simpleName}ChromMappedToLT2ref.bam
 	samtools index ${read.simpleName}ChromMappedToLT2ref.bam
 	"""
 }
 
-bamFile.into { bamFile_stats; bamFile_mpileup }
+bamFile.into { bamFile_stats; bamFile_mpileup; bamFile_freebayes }
 
 process mapStats {
 
@@ -184,7 +193,24 @@ process mpileup {
 	script:
 
 	"""
-	samtools mpileup -f /home/chrisgaby/Documents/USDA/GoogleCloudSimpleNextflow/AE006468.2.fasta -g ${bamFile} | bcftools call -m - > /home/chrisgaby/Documents/USDA/GoogleCloudSimpleNextflow/mpileup/${bamFile.simpleName}.vcf
+	bcftools mpileup -Ou -f /home/chrisgaby/Documents/USDA/GoogleCloudSimpleNextflow/AE006468.2.fasta ${bamFile} | bcftools call -mv -Ov -o /home/chrisgaby/Documents/USDA/GoogleCloudSimpleNextflow/mpileup/${bamFile.simpleName}_MP.vcf
+	"""
+	//samtools mpileup -f /home/chrisgaby/Documents/USDA/GoogleCloudSimpleNextflow/AE006468.2.fasta -g ${bamFile} | bcftools call -mv - > /home/chrisgaby/Documents/USDA/GoogleCloudSimpleNextflow/mpileup/${bamFile.simpleName}_MP.vcf
+}
+
+process freebayes {
+
+	//publishDir '/home/chrisgaby/Documents/USDA/GoogleCloudSimpleNextflow/freebayes', mode: 'move', overwrite: false
+
+	input:
+	file bamFile from bamFile_freebayes
+
+	//output:
+	//file "*.vcf"
+
+	script:
+	"""
+	freebayes -f /home/chrisgaby/Documents/USDA/GoogleCloudSimpleNextflow/AE006468.2.fasta -p 1 ${bamFile} > /home/chrisgaby/Documents/USDA/GoogleCloudSimpleNextflow/freebayes/${bamFile.simpleName}_FB.vcf
 	"""
 
 }
