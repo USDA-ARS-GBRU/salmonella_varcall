@@ -31,7 +31,8 @@ RUN cd /home/programs/ && wget https://repo.anaconda.com/miniconda/Miniconda3-la
 # RUN wget https://sra-download.ncbi.nlm.nih.gov/traces/sra79/SRZ/014464/SRR14464606/87712.fastq -O SRR14464606_1.fastq && wget https://sra-download.ncbi.nlm.nih.gov/traces/sra79/SRZ/014464/SRR14464606/87713.fastq -O SRR14464606_2.fastq
 
 # copy the S. enterica LT2 reference genome and its plasmid
-COPY AE006468.2.fasta AE006471.2.fasta ./
+COPY AE006468.2.fasta ./
+#COPY AE006471.2.fasta ./ # S. enterica LT2 plasmid sequence
 
 # install dependency to unpack bz2 files prior to its use in samtools install
 RUN apt-get install libbz2-dev lbzip2 -y
