@@ -99,8 +99,8 @@ RUN chmod u+x /home/SentericaVariantPipeline/FastQC/fastqc
 RUN /root/miniconda3/bin/bwa index ./AE006468.2.fasta
 
 # Copy the 100-genome pangenome reference
-RUN mkdir ./100lines/
-COPY 100lines/ ./100lines/
+#RUN mkdir ./100lines/
+#COPY 100lines/ ./100lines/
 
 # copy the perl script dependencies
 COPY gafRedistribute.pl pack_table_to_seg_cov.pl ./
