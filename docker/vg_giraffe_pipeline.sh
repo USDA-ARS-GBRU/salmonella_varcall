@@ -1,0 +1,163 @@
+#!/bin/bash
+
+# Original script written by Brian Nadon in 2021
+# with minor modifications by John Christian Gaby
+# on 11/15/2021
+
+#Use the following line to set your PATH to include the VG executable.
+export PATH=$PATH:/home/chrisgaby/program_executables/
+
+###################
+### USAGE NOTES ###
+###################
+
+#USAGE: 
+#vg_giraffe_pipeline.sh [name_of_ref_graph] [fastq_1] [fastq_2]
+
+#Any line with [tk] needs to be filled in with the appropriate hard-coded
+#directory on the final server/compute node.
+
+gname=$1
+fq1=$2
+fq2=$3
+
+echoerr() { echo "$@" 1>&2; }
+
+############################
+### SET FILE DEFINITIONS ###
+############################
+
+#The directory you're running this script in
+workingdir=/home/chrisgaby/Documents/USDA/GoogleCloudSimpleNextflow/
+
+#The directory where the SRA files in fastq format are located. These
+# will be used by the Giraffe read aligner to map to the 
+# pangenome reference graph.
+sradir=/home/chrisgaby/Documents/USDA/GoogleCloudSimpleNextflow/results/
+
+#The directory in which the graph(s) and indices are stored 
+#NB THEY MUST ALL BE NAMED BY $gname! e.g. "pggb_100"
+#A reminder: this should include a .GBWT, .gg, .min, and .dist
+graphdir=/home/chrisgaby/Documents/USDA/GoogleCloudSimpleNextflow/100lines
+
+#The location of the script to redistribute duplicate reads
+#(Needed because giraffe doesn't handle this by default for some reason)
+#https://github.com/USDA-ARS-GBRU/PanPipes/blob/main/scripts/gafRedistribute.pl
+dis_script=/home/chrisgaby/Documents/USDA/GoogleCloudSimpleNextflow/gafRedistribute.pl
+
+#location of the segcov.pl script 
+#https://github.com/brianabernathy/gfa_var_genotyper/blob/main/pack_table_to_seg_cov.pl
+segcov_script=/home/chrisgaby/Documents/USDA/GoogleCloudSimpleNextflow/pack_table_to_seg_cov.pl
+
+samplename=${fq1%_1.fastq}
+outdir=${workingdir}/${gname}_${samplename}/
+
+#####################
+### BUILD INDICES ###
+#####################
+
+#This section is not necessary since we've already built the indices.
+#But kept here for recordkeeping.
+
+#cd $graphdir
+#vg mod -X 1000 ${gname}.gfa > ${gname}.mod.gfa
+#vg gbwt -G ${gname}.mod.gfa -p -o ${gname}.mod.gbwt -g ${gname}.mod.gg
+#vg minimizer -g ${gname}.mod.gbwt -i ${gname}.mod.min -G ${gname}.mod.gg
+#vg convert -x -g ${gname}.mod.gfa > ${gname}.mod.xg
+#vg snarls -T ${gname}.mod.xg > ${gname}.mod.snarls
+#vg index -s ${gname}.mod.snarls -j ${gname}.mod.dist ${gname}.mod.xg
+
+
+#Move to the output dir
+mkdir -p $outdir
+cd $outdir
+
+
+########################
+### BEGIN ALIGNMENT ####
+########################
+
+base=$samplename
+
+#These are dependent on that graph name. Make sure they all match!
+#e.g. all graphs/indices are named "pggb_100.mod.gfa" and "pggb_100.mod.gbwt"
+#They need to all be in $graphdir as well.
+gfa=${graphdir}/${gname}.mod.gfa
+idxbase=${graphdir}/${gname}.mod
+xg=${idxbase}.xg
+
+out_base="${gname}_${base}_giraffe"
+alnstat=${out_base}_alignstats.txt
+echoerr "FQ: $fq1 $fq2"
+echoerr "graph: $idxbase"
+
+#Setting output names
+gam=${out_base}.gam
+gaf=${out_base}.gaf
+
+echoerr "timing giraffe, 6 threads, -M 20"
+echo "$fq1"
+echo "$sradir${fq1}"
+#NOTE: add "-o gaf" for final pipeline maybe? We have to go gaf -> redistribute -> GAM
+time vg giraffe -t 6 -M 20 -g ${idxbase}.gg -H ${idxbase}.gbwt -m ${idxbase}.min -d ${idxbase}.dist -f ${sradir}${fq1} -i > $gam
+# -f ${workingdir}${fq2}
+
+#create the GAF for processing
+vg convert -G $gam $xg > $gaf
+
+#print out some stats
+printf "${out_base} stats:\n" >> $alnstat
+vg stats -a $gam >> $alnstat
+
+#randomly distribute duplicate reads
+#(reads that align equally to different parts of the genome)
+#Note this permanently deletes the original non-fixed GAF and GAM.
+
+#BEWARE that if the reads were downloaded using fastq-dump with the 
+# --readids parameters, then the following error will occur in the
+# perl script "gafRedistribute.pl" executed in the code below:
+# SRR14464606.633912.2 removed at /home/chrisgaby/Desktop/NextFlowVariantPipeline/pipelineFiles/gafRedistribute.pl line 30, <IN> line 1632544.
+# This is because the perl script, at line 30, groups and captures
+# 2 segments of the read identifier using a "/" as the delimiter between
+# the identifier "base" and the read "dir" (perhaps short for "direction")
+# and uses these to determine whether reads are paired or singletons, 
+# which are eliminated from the .gaf file. Hence, if the read identifier
+# uses a separator such as a "." (i.e. SRR14464606.52.1 and SRR14464606.52.2),
+# then the perl script will emit an error as "906187.1 removed at
+# gafRedistribute.pl line 30, <IN> line 2353135. There are at least 2 
+# ways to adapt the scripts appropriately: 1) change line 30 of
+# gafRedistribute.pl to use the read identifier delimiter that appears
+# in the fasta headers to separate "base" and "dir" or 2) download 
+# SRA datasets with fastq-dump and use the parameters
+# "--defline-seq '@$sn/$ri' --defline-qual '+$sn/$ri'
+# to specify the "/" as the read identifier delimiter.
+
+# Also, there is an error generated by the perl script:
+# Argument "*" isn't numeric in addition (+) at
+# gafRedistribute.pl line 62, <IN> line 838422.
+# These appear to be due to lines in the .gaf file
+# that appear as follows:
+# 367325/1	251	*	*	*	*	*	*	*	*	*	0
+# 367325/2	251	*	*	*	*	*	*	*	*	*	0
+# Subsequent BLAST of the nucelotide seqeunce corresponding
+# to the sequence ids taken from the FASTQ files revealed
+# these to be plasmid sequences. Hence, plasmid sequences
+# are not present in the pangenome reference graph and
+# the plasmid reads are unable to be aligned.
+
+echoerr "timing redis"
+time perl $dis_script $gaf > tmp.gaf
+mv tmp.gaf $gaf
+vg convert -F $gaf $xg > $gam
+
+#######################
+### VARIANT CALLING ###
+#######################
+echoerr "timing vg pack"
+time vg pack -t 6 -x $xg -g $gam -o ${out_base}.pack -d > ${out_base}.packtable
+echoerr "timing vg call"
+time vg call -t 6 -p $refname -d 1 -r ${idxbase}.snarls -k ${out_base}.pack -a -s ${out_base} $xg > ${out_base}.vcf
+time vg call -t 6 -d 1 -r ${idxbase}.snarls -k ${out_base}.pack -a -s ${out_base} $xg > ${out_base}_allpaths.vcf
+
+#Convert the pack table to our final desired format
+perl $segcov_script -p ${out_base}.packtable > ${out_base}.seg.cov
