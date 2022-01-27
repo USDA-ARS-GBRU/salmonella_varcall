@@ -5,22 +5,25 @@ Development of a variant calling pipeline for *Salmonella* genomic data.
 
 This repository contains the following folders:
 
-1. `docker` The dockerfile that specifies instructions to create the docker image, which includes all software, files, and dependencies required to execute conventional SNP calling as well as the novel reference graph-based variant calling.
-2. `metadata` Metadata for NCBI *Salmonella* datasets relevant to this project as well as the code used to process and explore the metadata.
+1. `.github/workflows` This folder contains the `docker-publish.yml` file that specifies the github action for creating the docker image from the dockerfile and other files contained in the repository.
+2. `amr` This folder contains the Python script that downloads AntiMicrobial Resistance data from *Salmonella* records in NCBI. The folder also contains a comma separated values (CSV) file of the downloaded AMR data.
+3. `docker` This folder contains the dockerfile that specifies instructions to create the docker image, which includes all software, files, and dependencies required to execute conventional SNP calling as well as the novel reference graph-based variant calling. Files unique to this project and thus unavailable elsewhere are also included in this folder and are copied into the docker image via commands in the dockerfile. Note that a Github action has been created for this repository that builds the docker image and deposits it in the Github Container Registry (GHCR) at the location https://github.com/usda-ars-gbru/salmonella_varcall/pkgs/container/salmonella_varcall
+4. `metadata` Metadata for NCBI *Salmonella* datasets relevant to this project as well as the code used to process and explore the metadata.
    1. `assembly` Metadata and analysis from the NCBI Assembly database.
    2. `sra` Metadata and analysis from the NCBI Sequence Read Archive (SRA).
-3. `refgenome` The scripts and files used to download and analyze the *S. enterica* reference chromosomes, which were subsequently used as the basis for constructing the reference graph.
+5. `nextflow` The `main.nf` Nextflow script in this folder is the pipeline of commands that are executed in the cloud in order to process the *Salmonella* genomic datasets from the SRA and output variant calls.
+6. `refgenome` The scripts and files used to download and analyze the *S. enterica* reference chromosomes, which were subsequently used as the basis for constructing the reference graph.
    1. `dloadrefchrom` The scripts and list of Genbank chromosome accessions needed to download the reference chromosomes.
    2. `fixorigin` The script for running the program `Circlator` to set all the fasta files for all of the reference chromosomes to begin at their origin of replication.
-   3. `kmedoids` The Rmd file and its output for performing kmedoids clustering of the MASH distances of the reference chromosomes. Lists of Genbank accesions for the medoid representatives are given for a range of cluster sizes. These lists were subsequently used to determine how many reference chromosomes to use for constructing the reference graph.
+   3. `kmedoids` The RMarkdown (with file extension `.Rmd`) file and its output for performing kmedoids clustering of the MASH distances of the reference chromosomes. Lists of Genbank accesions for the medoid representatives are given for a range of cluster sizes. These lists were subsequently used to determine how many reference chromosomes to use for constructing the reference graph.
    4. `mash` The scripts for generating a MASH sketch for each reference chromosome and a pairwise genomic distance matrix as well as the output distance matrix itself, which was subsequently used for outlier identification and kmedoids analyses.
    5. `outlierID` Analysis of the MASH genomic distance matrix to identify outlier chromosomes for exclusion from the reference graph.
-4. `refgraph` The custom *Salmonella enterica* reference graph and the code for generating it.
-5. `snpcalling` The traditional SNP calling pipelines to which the graph-based variant calling pipeline will be compared.
+7. `refgraph` The custom *Salmonella enterica* reference graph and the code for generating it.
+8. `snpcalling` The traditional SNP calling pipelines to which the graph-based variant calling pipeline will be compared.
    1. `freebayes` SNP calling with the FreeBayes program.
    2. `mpileup` SNP calling with the samtools mpileup program.
    3. `refgenome` The reference genome of *Salmonella enterica* type strain LT2 used in the SNP calling.
-6. `varcalling` The variant calling pipeline that uses a custom *Salmonella enterica* reference graph.
+9. `varcalling` The variant calling pipeline that uses a custom *Salmonella enterica* reference graph.
 
 ## Software Used in This Project
 
@@ -39,5 +42,7 @@ MASH was used to compare similarity of the reference *S. enterica* chromosomes.
 ### Samtools
 
 ### VG
+
+### Giraffe
 
 
