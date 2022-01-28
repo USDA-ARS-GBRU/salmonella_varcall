@@ -48,6 +48,10 @@ MASH was used to compare similarity of the reference *S. enterica* chromosomes.
 
 ### Samtools
 
+### PGGB
+
+The [PanGenome Graph Builder(PGGB)](https://github.com/pangenome/pggb) is the software that was used to create the pangenome reference graph from the complete, contiguous, circular *S. enterica* chromosomes. The pangenome reference graphs and the script to run PGGB are found in the `refgraph` folder.
+
 ### VG
 
 [VG](https://github.com/vgteam/vg) is software for working with variation graphs. It serves as the principle tool that we use for alignment of genome sequence reads to the pangenome reference graph as well as for subsequent variant calling.
