@@ -65,3 +65,5 @@ Note that Giraffe, which the VG team describes as a tool for "fast, haplotype-ba
 ### FastQC
 
 ### Dashing
+
+[Dashing](https://github.com/dnbaker/dashing) is software similar to MASH that allows for fast genomic distance calculation. The software is used to compute a sketch of all *S. enterica* genomic datasets in the SRA. The sketches may be subsequently used to create a matrix of genome distances, which can then be used for clustering to identify outlier or anomalous datasets as well as for generating a list of cluster representatives as a form of dereplication to reduce the number of highly similar genomes in the collection.
