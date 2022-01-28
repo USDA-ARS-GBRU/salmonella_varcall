@@ -43,13 +43,16 @@ The Genome Analysis ToolKit is software created by the Broad Institute for analy
 [GATK is available from the Broad institute](https://gatk.broadinstitute.org/hc/en-us).
 
 ### MASH
+
 MASH was used to compare similarity of the reference *S. enterica* chromosomes.
 
 ### Samtools
 
 ### VG
 
-### Giraffe
+[VG](https://github.com/vgteam/vg) is software for working with variation graphs. It serves as the principle tool that we use for alignment of genome sequence reads to the pangenome reference graph as well as for subsequent variant calling.
+
+Note that Giraffe, which the VG team describes as a tool for "fast, haplotype-based mapping of reads to a graph", is a command within the VG software. It is used for mapping the genome sequencing reads to the pangenome reference graph.
 
 ### BWA
 
