@@ -6,7 +6,7 @@ Development of a variant calling pipeline for *Salmonella* genomic data.
 This repository contains the following folders:
 
 1. `.github/workflows` This folder contains the `docker-publish.yml` file that specifies the github action for creating the docker image from the dockerfile and other files contained in the repository.
-2. `amr` This folder contains the Python script that downloads AntiMicrobial Resistance data from *Salmonella* records in NCBI. The folder also contains a comma separated values (CSV) file of the downloaded AMR data.
+2. `amr` This folder contains the Python script that downloads AntiMicrobial Resistance (AMR) data from *Salmonella* records in NCBI. The folder also contains a comma separated values (CSV) file of the downloaded AMR data.
 3. `docker` This folder contains the dockerfile that specifies instructions to create the docker image, which includes all software, files, and dependencies required to execute conventional SNP calling as well as the novel reference graph-based variant calling. Files unique to this project and thus unavailable elsewhere are also included in this folder and are copied into the docker image via commands in the dockerfile. Note that a Github action has been created for this repository that builds the docker image and deposits it in the Github Container Registry (GHCR) at the location https://github.com/usda-ars-gbru/salmonella_varcall/pkgs/container/salmonella_varcall
 4. `metadata` Metadata for NCBI *Salmonella* datasets relevant to this project as well as the code used to process and explore the metadata.
    1. `assembly` Metadata and analysis from the NCBI Assembly database.
@@ -36,6 +36,12 @@ Circlator was used to set the origin of replication for the reference *S. enteri
 
 ### FreeBayes
 
+### GATK
+
+The Genome Analysis ToolKit is software created by the Broad Institute for analysis of genomic data. It is highly capable and complex. While the software was originally developed for analysis of eukaryotic genomes, it has been increasingly used for the analysis of prokaryotic genomes despite consequential differences in genome biology between the domains. In recognition of the need for a pipeline that takes account of these differences, the GATK team has worked on a microbe-specific implementation of the pipeline called [GATK for microbes](https://gatk.broadinstitute.org/hc/en-us/articles/360060004292-Introducing-GATK-for-Microbes). In addition, unlike FreeBayes and Mpileup (Mpileup is part of the SRA toolkit), GATK allows start to finish variant calling on large numbers of genomes (i.e. thousands of genomes) by using the [GVCF output format](https://gatk.broadinstitute.org/hc/en-us/articles/360035531812-GVCF-Genomic-Variant-Call-Format), which permits [consolidation of the gvcf](https://gatk.broadinstitute.org/hc/en-us/articles/360035889971) output from [variant calling on multiple batches of samples](https://gatk.broadinstitute.org/hc/en-us/articles/360035890411-Calling-variants-on-cohorts-of-samples-using-the-HaplotypeCaller-in-GVCF-mode).
+
+[GATK is available from the Broad institute](https://gatk.broadinstitute.org/hc/en-us).
+
 ### MASH
 MASH was used to compare similarity of the reference *S. enterica* chromosomes.
 
@@ -45,4 +51,10 @@ MASH was used to compare similarity of the reference *S. enterica* chromosomes.
 
 ### Giraffe
 
+### BWA
 
+### SRA Toolkit
+
+### FastQC
+
+### Dashing
