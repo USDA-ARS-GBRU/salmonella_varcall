@@ -60,6 +60,8 @@ Note that Giraffe, which the VG team describes as a tool for "fast, haplotype-ba
 
 ### BWA
 
+The [Burrow-Wheeler Aligner (BWA)](https://github.com/lh3/bwa) is used for read mapping of the *S. enterica* SRA datasets to a reference *S. enterica* genome.
+
 ### SRA Toolkit
 
 We use the [SRA ToolKit](https://github.com/ncbi/sra-tools) to download the list of *S. enterica* genome sequence datasets from the SRA. The `fastq-dump` command permits partial download of a limited number of spots/reads from each dataset, thereby allowing the amount of data transferred over the network to be limited to for example, just the number of reads required to acheve 60-fold coverage of the genome (most *S. enterica* genome sequence datasets in the SRA consist of far more reads than are needed for accurate variant calling). Google Cloud has the SRA mirrored on its own servers, and so it is assumed that download of the hundreds of thousands of SRA datasets will proceed faster when the SRA ToolKit configuration is set to download from the Google Cloud servers. The SRA ToolKit user settings are in a file named `user-settings.mkfg`, and a copy of this file has been added to the `docker` folder.
