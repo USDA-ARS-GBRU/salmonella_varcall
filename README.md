@@ -51,6 +51,8 @@ MASH was used to compare similarity of the reference *S. enterica* chromosomes.
 
 ### Samtools
 
+[Samtools](http://www.htslib.org/) and the related `bcftools` are used to perform conventional variant calling. Like `Freebayes`, there doesn't appear to be a well-outlined approach to joint variant calling on the scale of hundreds of thousands of genomes as is available with `GATK`, and so the `Samtools mpileup` variant calling approach may be omitted from the final pipeline version.
+
 ### PGGB
 
 The [PanGenome Graph Builder(PGGB)](https://github.com/pangenome/pggb) is the software that was used to create the pangenome reference graph from the complete, contiguous, circular *S. enterica* chromosomes. The pangenome reference graphs and the script to run PGGB are found in the `refgraph` folder.
