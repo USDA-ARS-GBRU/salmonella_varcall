@@ -30,11 +30,14 @@ This repository contains the following folders:
 The following is a list of the software used in this project:
 
 ### Circlator
+
 Circlator was used to set the origin of replication for the reference *S. enterica* chromosomes that were used to create the reference graph.
 
 [Circlator on Github](https://github.com/sanger-pathogens/circlator)
 
 ### FreeBayes
+
+[Freebayes](https://github.com/freebayes/freebayes) is variant calling software. GATK may be favored for variant calling because it is uncertain whether there may be a way to perform joint variant calling on hundreds of thousands of *S. enterica* genome datasets by using `Freebayes`, whereas there is the `gvcf` approach that is available and well-described with GATK. Hence, `Freebayes` may be omitted from the final pipeline version.
 
 ### GATK
 
