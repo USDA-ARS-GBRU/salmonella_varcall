@@ -9,7 +9,7 @@ WORKDIR /home/SentericaVariantPipeline/
 
 # install variant calling files and programs
 # copy the reference graph files into the image
-# COPY pggb_250lines.gfa pggb_250lines.xg ./
+# COPY pggb_250lines.gfa pggb_250lines.xg ./ --TODO: need to copy this file somewhere that container can see it, might be in line 101 folder.
 
 # update the aptitude package manager repositories
 RUN apt-get update
