@@ -1,2 +1,5 @@
 *.xg filter=lfs diff=lfs merge=lfs -text
 *.gfa filter=lfs diff=lfs merge=lfs -text
+*.gbz filter=lfs diff=lfs merge=lfs -text
+*.min filter=lfs diff=lfs merge=lfs -text
+*.dist filter=lfs diff=lfs merge=lfs -text
