@@ -3,7 +3,7 @@
 // Declare syntax version
 nextflow.enable.dsl=2
 // Script parameters
-params.sralist = "$baseDir/docker/v1/3SentericaSRAAccession.txt"
+params.sralist = "$baseDir/docker/v1/3SentericaSRAAccessions.txt"
 params.refgenome = "$baseDir/refvcf/GCF_000006945.2.fasta.gz"
 params.refgraph = "$baseDir/refgraph/pggb_100.gfa"
 params.refvcf = "$baseDir/refvcf/salm100.vcf.gz"
@@ -14,11 +14,8 @@ params.threads = 8
 log.info """\
 Salmonella Varcall  -  N F
 ================================
-refgenome   : $params.genome
-reads    : $params.reads
-variants : $params.variants
-denylist : $params.denylist
-results  : $params.results
+refgenome   : $params.refgenome
+sralist   : $params.sralist
 """
 
 // setup
@@ -28,6 +25,7 @@ process bwa_index {
   input:
     path refgenome
   output:
+    path refgenome
 
     """
     # index
@@ -35,13 +33,13 @@ process bwa_index {
     """
 }
 
-process gatk_haplotypecaller {
+process gatk_createdict {
   container "broadinstitute/gatk:4.2.6.1"
   input:
 
     path refgenome
   output:
-    path  "refgenome.dict" into refdict
+    path  "refgenome.dict", emit: refdict
 
   """
   # write sequence dictioany
@@ -56,8 +54,8 @@ process fetch_SRA {
   input:
     val sraid
   output:
-    path "${sraid}_1.fastq" into forwardreads
-    path "${sraid}_2.fastq" into reversereads
+    path "${sraid}_1.fastq", emit:  forwardreads
+    path "${sraid}_2.fastq", emit: reversereads
 
     """
     fasterq-dump $sraid --threads $params.threads
@@ -74,7 +72,7 @@ process  map_reads {
     val threads
 
   output:
-      path "${sraid}.sam" into sam
+      path "${sraid}.sam", emit: sam
   """
   bwa mem -M -t $threads $refgenome $forwardreads $reversereads > ${sraid}.sam
   """
@@ -87,8 +85,8 @@ process  sort_and_index {
     val sraid
 
   output:
-      path "${sraid}.bam" into bam
-      path "${sraid}.bam.bai" into bamindex
+      path "${sraid}.bam", emit: bam
+      path "${sraid}.bam.bai" emit: bamindex
   """
   java -jar picard.jar SortSam \
   -INPUT sam \
@@ -111,7 +109,7 @@ process gatk_haplotypecaller {
     val threads
 
   output:
-    path  "${sraid}.vcf" into vcf
+    path  "${sraid}.vcf", emit:  vcf
 
   """
   gatk  \
@@ -134,7 +132,7 @@ process vg_giraffe {
     val threads
     val sraid
   output:
-    path  "sraid.gam" into gam
+    path  "sraid.gam" emit: gam
   """
   #create GAM with variant calls
 
