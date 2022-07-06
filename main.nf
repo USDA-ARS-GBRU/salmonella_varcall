@@ -50,6 +50,7 @@ process gatk_createdict {
 // some map process is needed to sent each sraid from the params.sraidlist to a worker node.
 
 process fetch_SRA {
+  machineType 'n2-standard-8'
   container "ncbi/sra-tools"
   input:
     val sraid
